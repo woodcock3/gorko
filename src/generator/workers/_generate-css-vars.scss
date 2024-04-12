@@ -1,5 +1,5 @@
 @use 'sass:map';
-@use 'process-vars';
+@use 'process-vars' as _p;
 
 /// GENERATE CSS VARS MIXIN
 /// Will either generate a simple collection of CSS Custom Properties
@@ -15,7 +15,7 @@
     /// Still generate the custom properties but remove the themes from the $vars
     /// so we don't confuse the generator
     :root {
-      @include process-vars.process-vars(map.remove($vars, 'themes'));
+      @include _p.process-vars(map.remove($vars, 'themes'));
     }
 
     @if ($themes) {
@@ -34,20 +34,20 @@
         @if ($prefers-color-scheme) {
           @media (prefers-color-scheme: #{$prefers-color-scheme}) {
             #{$prefix} {
-              @include process-vars.process-vars($tokens);
+              @include _p.process-vars($tokens);
             }
           }
         } @else {
           /// If not, we can generate the vars within the prefix only instead
           #{$prefix} {
-            @include process-vars.process-vars($tokens);
+            @include _p.process-vars($tokens);
           }
         }
       }
     } @else {
       /// No themes, so just generate custom properties for each CSS var
       :root {
-        @include process-vars.process-vars($vars);
+        @include _p.process-vars($vars);
       }
     }
   }

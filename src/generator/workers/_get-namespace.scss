@@ -1,6 +1,6 @@
 @use 'sass:map';
 @use 'sass:meta';
-@use '../../config';
+@use '../../config' as _c;
 
 /// Grab the property and value of one of the $gorko-config utilities
 /// that the generator will generate a class for.
@@ -14,7 +14,7 @@
     'css-vars': false
   );
 
-  $namespace-settings: map.get(config.$gorko-config, 'namespace');
+  $namespace-settings: map.get(_c.$gorko-config, 'namespace');
 
   @if ($namespace-settings == null) {
     @return '';

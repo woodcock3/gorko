@@ -1,5 +1,5 @@
 @use 'sass:map';
-@use '../config';
+@use '../config' as _c;
 
 /// MEDIA QUERY MIXIN
 /// Pass in the key of one of your breakpoints set in `$gorko-config['breakpoints']`
@@ -8,7 +8,7 @@
 /// @param {string} $key - The key of your configured breakpoint
 ///
 @mixin media-query($key) {
-  $breakpoints: map.get(config.$gorko-config, 'breakpoints');
+  $breakpoints: map.get(_c.$gorko-config, 'breakpoints');
   $matched-breakpoint: map.get($breakpoints, $key);
 
   @if not $matched-breakpoint {

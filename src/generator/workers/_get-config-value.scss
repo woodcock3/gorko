@@ -5,7 +5,7 @@
 /// @param {string} $value-key - The value key that you are looking for within the utilty
 ///
 @use 'sass:map';
-@use 'get-namespace';
+@use 'get-namespace' as _n;
 @use '../../config';
 
 @function get-config-value($key, $value-key) {
@@ -30,7 +30,7 @@
       @return false;
     }
 
-    $namespace: get-namespace.get-namespace('css-vars');
+    $namespace: _n.get-namespace('css-vars');
 
     // We've got all we need so generate that custom property reference with var
     @return (

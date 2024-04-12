@@ -3,10 +3,10 @@
 ///
 /// @param {map} $passed-vars - A collection of keys and values
 ///
-@use 'get-namespace';
+@use 'get-namespace' as _n;
 
 @mixin process-vars($passed-vars) {
-  $namespace: get-namespace.get-namespace('css-vars');
+  $namespace: _n.get-namespace('css-vars');
 
   @each $var, $items in $passed-vars {
     @each $key, $value in $items {

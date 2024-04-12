@@ -8,10 +8,10 @@
 /// @param {boolean} $use-css-vars - this is to tell generate-css to use either a value or a CSS Variable
 /// @param {string} $item-key - the key for items which is used for tying each CSS var up to the item value
 ///
-@use 'get-namespace';
+@use 'get-namespace' as _n;
 
 @mixin generate-css($selector, $property, $items, $use-css-vars, $item-key) {
-  $var-namespace: get-namespace.get-namespace('css-vars');
+  $var-namespace: _n.get-namespace('css-vars');
 
   @each $key, $value in $items {
     #{'.' + $selector + '-' + $key} {

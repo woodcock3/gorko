@@ -397,17 +397,17 @@ If we set the `output` to be `responsive`, with the default `breakpoints` define
 The default behaviour of Gorko is to generate utility classes, but in the spirit of being as flexible as possible, you can stop it doing that by setting `$generate-utility-classes` to `false` when you pull Gorko into your project, like this:
 
 ```scss
-$generate-utility-classes: false;
-@import 'config';
-@import '../path/to/your/node_modules/gorko/gorko.scss';
+@use 'variables' with ($generate-utility-classes: false);
+@use 'config';
+@use '../path/to/your/node_modules/gorko/gorko.scss';
 ```
 
 We might want to generate those utility classes later on in the CSS, though, so we use the `generate-utility-classes()` mixin anywhere **after** Gorko has been pulled in.
 
 ```scss
-$generate-utility-classes: false;
-@import 'config';
-@import '../path/to/your/node_modules/gorko/gorko.scss';
+@use 'variables' with ($generate-utility-classes: false);
+@use 'config';
+@use '../path/to/your/node_modules/gorko/gorko.scss';
 
 // Standard authored CSS
 body {

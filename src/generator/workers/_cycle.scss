@@ -6,13 +6,13 @@
 /// @param {bool} $is-breakpoint - A flag for the responsive generation to use to determine wether to run or not
 ///
 @use 'sass:meta';
-@use 'process-collection';
-@use '../../config';
+@use 'process-collection' as _p;
+@use '../../config' as _c;
 
 @mixin cycle($prefix, $is-breakpoint) {
-  @each $selector, $props in config.$gorko-config {
+  @each $selector, $props in _c.$gorko-config {
     @if (meta.type-of($props) == 'map') {
-      @include process-collection.process-collection(
+      @include _p.process-collection(
         $props,
         $prefix,
         $selector,
