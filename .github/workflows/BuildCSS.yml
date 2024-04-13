@@ -2,11 +2,11 @@ name: Build css
 on:
   push:
     branches:
-      - docs
+      - "docs"
       
 # Conditional environmental if's      
 env:
-  UPDATE_NPM: false # false = deploy eleventy , true = update npm
+  UPDATE_NPM: false # false = deploy css , true = update npm
 
 jobs:
   build_css:
@@ -15,34 +15,40 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Set up Node.js 16.x
+      - name: Set up Node.js 18.x
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
-          cache: 'npm'
+          node-version: '18'
+          # cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: npm install #npm update  --save
         
-      - name: Npm Build
+      - name: Npm build
         if: env.UPDATE_NPM != 'true'
         run: npm run test
         
+      - name: Prettier
+        if: env.UPDATE_NPM != 'true'
+        uses: actionsx/prettier@v2
+        with: 
+          # prettier CLI arguements
+          args: --print-width 100 --single-quote --write "*.scss"
+        
       - name: Commit changes
-        if: env.UPDATE_NPM != 'false'
+        if: env.UPDATE_NPM != 'true'
         uses: EndBug/add-and-commit@v9
         with:
-          author_name: woodcock3
-          author_email: woodcock3@users.noreply.github.com
-          message: "Add test files"
-          add: "test"
+          default_author: github_actions
+          message: "Add files"
+          add: '["*.json", "*.scss", "*.css", "*.js"]'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
           
       - name: pull request on npm update
-        if: env.UPDATE_NPM == 'false'
-        uses: peter-evans/create-pull-request@v3
+        if: env.UPDATE_NPM == 'true'
+        uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: Update dependencies
