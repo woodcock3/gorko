@@ -53,7 +53,7 @@ In your Sass (SCSS in this case), import Gorko like so:
 @use '../path/to/your/node_modules/gorko/gorko.scss';
 ```
 
-This will generate utility classes based on the default variables and defaukt configuration. To configure it for yourself, copy variables.scss and config.scss, and create your own override-config.scss and/or override-vars.scss. Once it is created **use your override-config and override-vars before Gorko**, like this:
+This will generate utility classes based on the default variables and default configuration. To configure it for yourself, copy variables.scss and config.scss, and create your own override-config.scss and/or override-vars.scss. Once it is created **use your override-config and override-vars before Gorko**, like this:
 
 ```scss
 @use 'override-vars';
