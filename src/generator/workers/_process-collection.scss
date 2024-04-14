@@ -17,15 +17,15 @@
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
   @each $key, $prop in $collection {
     @if meta.type-of($prop) == 'map' {
-    @debug "Key: #{$key}, Value: #{$prop}";
+    
     $items: map-get($prop, 'items');
-    @debug "Items: #{$items}";
+    
     $output: map-get($prop, 'output');
-    @debug "Output: #{$output}";
+    
     $property: map-get($prop, 'property');
-    @debug "Property: #{$property}";
+    
     $use-css-vars: map-get($prop, 'css-vars');
-    @debug "Use CSS Vars: #{$use-css-vars}";
+    
     $vars-key: '';
 
     $selector: _n.get-namespace('classes') + $selector;
