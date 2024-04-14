@@ -14,8 +14,8 @@
 @use 'get-namespace' as _n;
 @use '../../config' as _c;
 
-@mixin process-collection($collections, $prefix, $selector, $is-breakpoint) {
-  @each $collection in $collections {
+@mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
+  @each $key in $collection {
   
     $items: map.get($collection, 'items');
     $output: map.get($collection, 'output');
@@ -32,10 +32,22 @@
       $vars-key: map.get($collection, 'items');
       $items: map.get($vars, $vars-key);
     }
+  }
 
-    /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
-    @if ($property and $items) {
-      @if ($output == 'responsive') {
+  /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
+  @if ($property and $items) {
+    @if ($output == 'responsive') {
+      @include _css.generate-css(
+        #{$prefix + $selector},
+        $property,
+        $items,
+        $use-css-vars,
+        $vars-key
+      );
+    }
+
+    @if ($output == 'standard') {
+      @if ($is-breakpoint != true) {
         @include _css.generate-css(
           #{$prefix + $selector},
           $property,
@@ -43,18 +55,6 @@
           $use-css-vars,
           $vars-key
         );
-      }
-
-      @if ($output == 'standard') {
-        @if ($is-breakpoint != true) {
-          @include _css.generate-css(
-            #{$prefix + $selector},
-            $property,
-            $items,
-            $use-css-vars,
-            $vars-key
-          );
-        }
       }
     }
   }
