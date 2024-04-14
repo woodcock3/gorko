@@ -2,6 +2,6 @@
 /// override with config variables for their project
 @forward 'src/config';
 
-@forward 'src/functions/functions';
-@forward 'src/mixins/mixins';
-@forward 'src/generator/generator';
+@forward 'src/functions';
+@forward 'src/mixins';
+@forward 'src/generator';
