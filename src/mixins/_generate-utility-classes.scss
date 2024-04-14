@@ -12,17 +12,6 @@
   @include _cyc.cycle('', false);
 
   /// For each breakpoint, generate a prefix and run the cycle
-  @if (map.has-key(_c.$gorko-config, 'props')) {
-    @each $key, $value in map-deep-get(_c.$gorko-config, 'props', 'breakpoints') {
-      $prefix: #{$key + '\\:'};
-      $is-breakpoint: true;
-  
-      @media #{$value} {
-        @include _cyc.cycle($prefix, $is-breakpoint);
-      }
-    }
-  }
-
   @each $key, $value in map.get(_c.$gorko-config, 'breakpoints') {
     $prefix: #{$key + '\\:'};
     $is-breakpoint: true;

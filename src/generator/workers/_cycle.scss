@@ -11,18 +11,6 @@
 @use '../../config' as _c;
 
 @mixin cycle($prefix, $is-breakpoint) {
-  @if (map.has-key(_c.$gorko-config, 'props')) {
-    @each $selector, $props in map-get(_c.$gorko-config, 'props') {
-        @if (meta.type-of($props) == 'map') {
-          @include _p.process-collection(
-            $props,
-            $prefix,
-            $selector,
-            $is-breakpoint
-          );
-        }
-      }
-  }
   @each $selector, $props in _c.$gorko-config {
     @if (meta.type-of($props) == 'map') {
       @include _p.process-collection(
