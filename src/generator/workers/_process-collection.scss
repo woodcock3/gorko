@@ -15,48 +15,51 @@
 @use '../../config' as _c;
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
-  @each $key in $collection {
+  @each $key, $value in $collection {
+    @if type-of($value) == 'list' and length($value) > 0 and type-of(nth($value, 1)) == 'map' {
+      @each $prop in $value {
+        $items: map-get($prop, 'items');
+        $output: map-get($prop, 'output');
+        $property: map-get($prop, 'property');
+        $use-css-vars: map-get($prop, 'css-vars');
+        $vars-key: '';
+
+        $selector: _n.get-namespace('classes') + $selector;
+
+        /// If this collection is using CSS vars, the items come from the
+      /// 'css-vars' map in $gorko-config
+      @if ($use-css-vars) {
+        $vars: map-get(_c.$gorko-config, 'css-vars');
+        $vars-key: map-get($prop, 'items');
+        $items: map-get($vars, $vars-key);
+      }
   
-    $items: map.get($collection, 'items');
-    $output: map.get($collection, 'output');
-    $property: map.get($collection, 'property');
-    $use-css-vars: map.get($collection, 'css-vars');
-    $vars-key: '';
 
-    $selector: _n.get-namespace('classes') + $selector;
+      /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
+      @if ($property and $items) {
+          @if ($output == 'responsive') {
+            @include _css.generate-css(
+              #{$prefix + $selector},
+              $property,
+              $items,
+              $use-css-vars,
+              $vars-key
+            );
+          }
 
-    /// If this collection is using CSS vars, the items come from the
-    /// 'css-vars' map in $gorko-config
-    @if ($use-css-vars) {
-      $vars: map.get(_c.$gorko-config, 'css-vars');
-      $vars-key: map.get($collection, 'items');
-      $items: map.get($vars, $vars-key);
-    }
-  
-
-  /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
-  @if ($property and $items) {
-    @if ($output == 'responsive') {
-      @include _css.generate-css(
-        #{$prefix + $selector},
-        $property,
-        $items,
-        $use-css-vars,
-        $vars-key
-      );
-    }
-
-    @if ($output == 'standard') {
-      @if ($is-breakpoint != true) {
-        @include _css.generate-css(
-          #{$prefix + $selector},
-          $property,
-          $items,
-          $use-css-vars,
-          $vars-key
-        );
+          @if ($output == 'standard') {
+            @if ($is-breakpoint != true) {
+              @include _css.generate-css(
+                #{$prefix + $selector},
+                $property,
+                $items,
+                $use-css-vars,
+                $vars-key
+              );
+            }
+          }
+        }
       }
     }
   }
-}
 }
