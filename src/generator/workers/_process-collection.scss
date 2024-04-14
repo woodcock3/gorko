@@ -14,7 +14,7 @@
 @use 'get-namespace' as _n;
 @use '../../config' as _c;
 
-@mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
+@mixin process-collection($collections, $prefix, $selector, $is-breakpoint) {
   @each $collection in $collections {
   
     $items: map.get($collection, 'items');
