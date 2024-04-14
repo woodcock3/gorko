@@ -16,15 +16,6 @@
 @use '../../functions/map-deep-get';
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
-  @if (meta.type-of(map.get($collection, 'props')) == 'map') {
-    $items: map-deep-get($collection, 'props', 'items');
-    $output: map-deep-get($collection, 'props', 'output');
-    $property: map-deep-get($collection, 'props', 'property');
-    $use-css-vars: map-deep-get($collection, 'props', 'css-vars');
-  }
-  @debug map.get($collection, 'props');
-  @debug meta.type-of(map.get($collection, 'props')) == 'map';
-  
   $items: map.get($collection, 'items');
   $output: map.get($collection, 'output');
   $property: map.get($collection, 'property');
