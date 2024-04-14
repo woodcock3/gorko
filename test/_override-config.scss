@@ -68,29 +68,32 @@
       'property': 'color'
     ),
     'bg': (
-      'items': (
-        'fixed': 'fixed',
-        'local': 'local',
-        'scroll': 'scroll'
+      'attachment': (
+        'items': (
+          'fixed': 'fixed',
+          'local': 'local',
+          'scroll': 'scroll'
+          ),
+        'output': 'responsive',
+        'property': 'background-attachment'
+      ),
+      'position': (
+        'items': (
+          'bottom': 'bottom',
+          'center': 'center',
+          'left': 'left',
+          'left bottom': 'left bottom',
+          'left top': 'left top',
+          'right': 'right',
+          'right bottom': 'right bottom',
+          'right top': 'right top',
+          'top': 'top'
         ),
-      'output': 'responsive',
-      'property': 'background-attachment'
+        'output': 'responsive',
+        'property': 'background-position'
+      ),
     ),
-    'bg': (
-      'items': (
-        'bottom': 'bottom',
-        'center': 'center',
-        'left': 'left',
-        'left bottom': 'left bottom',
-        'left top': 'left top',
-        'right': 'right',
-        'right bottom': 'right bottom',
-        'right top': 'right top',
-        'top': 'top'
-        ),
-      'output': 'responsive',
-      'property': 'background-position'
-    ),
+    /* testing
     'bg': (
       'items': (
         'repeat': 'repeat',
@@ -124,20 +127,21 @@
         'border': 'border-box',
         'clip-content': 'content-box',
         'clip-padding': 'padding-box',
-        /*
+        
         TO DO:
         .bg-clip-text{
             background-clip:text;
             -webkit-background-clip:text;
             color:transparent;
-        } */
+        } 
         ),
       'output': 'responsive',
       'property': 'background-clip'
     ),
-
+    */
 
     /*** Border ***/
+    /*
     'border': (
       'items': (
         'solid': 'solid',
@@ -227,7 +231,7 @@
       'output': 'responsive',
       'property': 'border-inline-end-width'
     ),
-    
+    */
     
     /*** Radius ***/ 
     'box': (
