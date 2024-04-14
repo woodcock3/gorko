@@ -13,6 +13,25 @@
     ),
     'css-vars': (
       'color': var.$gorko-colors,
+      'font': ( // Modern font stack - https://modernfontstacks.com/
+        'system-ui': 'system-ui, sans-serif',
+        'transitional': 'Charter, "Bitstream Charter", "Sitka Text", Cambria, serif',
+        'old-style': '"Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, serif',
+        'humanist': 'Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans", source-sans-pro, sans-serif',
+        'geometric-humanist': 'Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif',
+        'classical-humanist': 'Optima, Candara, "Noto Sans", source-sans-pro, sans-serif',
+        'neo-grotesque': 'Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans", Arial, sans-serif',
+        'monospace-slab-serif': '"Nimbus Mono PS", "Courier New", monospace',
+        'monospace-code': 'ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace',
+        'industrial': 'Bahnschrift, "DIN Alternate", "Franklin Gothic Medium", "Nimbus Sans Narrow", sans-serif-condensed, sans-serif',
+        'rounded-sans': 'ui-rounded, "Hiragino Maru Gothic ProN", Quicksand, Comfortaa, Manjari, "Arial Rounded MT", "Arial Rounded MT Bold", Calibri, source-sans-pro, sans-serif',
+        'slab-serif': 'Rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif", "Sitka Small", serif',
+        'antique': 'Superclarendon, "Bookman Old Style", "URW Bookman", "URW Bookman L", "Georgia Pro", Georgia, serif',
+        'didone': 'Didot, "Bodoni MT", "Noto Serif Display", "URW Palladio L", P052, Sylfaen, serif',
+        'handwritten': '"Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual, cursive',
+        'base': '--font-system-ui',
+        'mono': '--font-monospace-code',
+      ),
       'themes': (
         'default': (
           'tokens': (
@@ -33,6 +52,9 @@
         )
       )
     ),
+
+
+    /*** Background ***/
     'bg': (
       'items': 'color',
       'css-vars': true,
@@ -45,6 +67,169 @@
       'output': 'standard',
       'property': 'color'
     ),
+    'bg': (
+      'items': (
+        'fixed': 'fixed',
+        'local': 'local',
+        'scroll': 'scroll'
+        ),
+      'output': 'responsive',
+      'property': 'background-attachment'
+    ),
+    'bg': (
+      'items': (
+        'bottom': 'bottom',
+        'center': 'center',
+        'left': 'left',
+        'left bottom': 'left bottom',
+        'left top': 'left top',
+        'right': 'right',
+        'right bottom': 'right bottom',
+        'right top': 'right top',
+        'top': 'top'
+        ),
+      'output': 'responsive',
+      'property': 'background-position'
+    ),
+    'bg': (
+      'items': (
+        'repeat': 'repeat',
+        'no-repeat': 'no-repeat',
+        'repeat-x': 'repeat-x',
+        'repeat-y': 'repeat-y',
+        'repeat-round': 'round',
+        'repeat-space': 'space'
+        ),
+      'output': 'responsive',
+      'property': 'background-repeat'
+    ),
+    'bg': (
+      'items': (
+        'auto': 'auto',
+        'cover': 'cover',
+        'contain': 'contain',
+        ),
+      'output': 'responsive',
+      'property': 'background-size'
+    ),
+    'bg': (
+      'items': (
+        'unset': 'unset', 
+        ),
+      'output': 'responsive',
+      'property': 'background-color'
+    ),
+    'bg': (
+      'items': (
+        'border': 'border-box',
+        'clip-content': 'content-box',
+        'clip-padding': 'padding-box',
+        /*
+        TO DO:
+        .bg-clip-text{
+            background-clip:text;
+            -webkit-background-clip:text;
+            color:transparent;
+        } */
+        ),
+      'output': 'responsive',
+      'property': 'background-clip'
+    ),
+
+
+    /*** Border ***/
+    'border': (
+      'items': (
+        'solid': 'solid',
+        'dashed': 'dashed',
+        'dotted': 'dotted',
+        'double': 'double',
+        'none': 'none',
+        ),
+      'output': 'responsive',
+      'property': 'border-style'
+    ),
+    'border': (
+      'items': (
+        'bs-none': 'none',
+        ),
+      'output': 'responsive',
+      'property': 'border-block-start'
+    ),
+    'border': (
+      'items': (
+        'be-none': 'none',
+        ),
+      'output': 'responsive',
+      'property': 'border-block-end'
+    ),
+    'border': (
+      'items': (
+        'is-none': 'none',
+        ),
+      'output': 'responsive',
+      'property': 'border-inline-start'
+    ),
+    'border': (
+      'items': (
+        'ie-none': 'none',
+        ),
+      'output': 'responsive',
+      'property': 'border-inline-end'
+    ),
+    'border': (
+      'items': (
+        '0': '0px',
+        '1': '1px',
+        '2': '2px',
+        '3': '4px',
+        ),
+      'output': 'responsive',
+      'property': 'border-width'
+    ),
+    'border': (
+      'items': (
+        'bs0': '0px',
+        'bs1': '1px',
+        'bs2': '2px',
+        'bs3': '4px',
+        ),
+      'output': 'responsive',
+      'property': 'border-block-start-width'
+    ),
+    'border': (
+      'items': (
+        'be0': '0px',
+        'be1': '1px',
+        'be2': '2px',
+        'be3': '4px',
+        ),
+      'output': 'responsive',
+      'property': 'border-block-end-width'
+    ),
+    'border': (
+      'items': (
+        'is0': '0px',
+        'is1': '1px',
+        'is2': '2px',
+        'is3': '4px',
+        ),
+      'output': 'responsive',
+      'property': 'border-inline-start-width'
+    ),
+    'border': (
+      'items': (
+        'ie0': '0px',
+        'ie1': '1px',
+        'ie2': '2px',
+        'ie3': '4px',
+        ),
+      'output': 'responsive',
+      'property': 'border-inline-end-width'
+    ),
+    
+    
+    /*** Radius ***/ 
     'box': (
       'items': (
         'block': 'block',
@@ -56,24 +241,8 @@
       'property': 'display'
     ),
     'font': (
-      'items': ( // Modern font stack - https://modernfontstacks.com/
-        'base': 'Helvetica, Arial, sans-serif',
-        'system-ui': 'system-ui, sans-serif',
-        'transitional': 'Charter, "Bitstream Charter", "Sitka Text", Cambria, serif',
-        'old-style': '"Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, serif',
-        'humanist': 'Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans", source-sans-pro, sans-serif',
-        'geometric-humanist': 'Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif',
-        'classical-humanist': 'Optima, Candara, "Noto Sans", source-sans-pro, sans-serif',
-        'neo-grotesque': 'Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans", Arial, sans-serif',
-        'monospace-slab-serif': '"Nimbus Mono PS", "Courier New", monospace',
-        'monospace-code': 'ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace',
-        'industrial': 'Bahnschrift, "DIN Alternate", "Franklin Gothic Medium", "Nimbus Sans Narrow", sans-serif-condensed, sans-serif',
-        'rounded-sans': 'ui-rounded, "Hiragino Maru Gothic ProN", Quicksand, Comfortaa, Manjari, "Arial Rounded MT", "Arial Rounded MT Bold", Calibri, source-sans-pro, sans-serif',
-        'slab-serif': 'Rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif", "Sitka Small", serif',
-        'antique': 'Superclarendon, "Bookman Old Style", "URW Bookman", "URW Bookman L", "Georgia Pro", Georgia, serif',
-        'didone': 'Didot, "Bodoni MT", "Noto Serif Display", "URW Palladio L", P052, Sylfaen, serif',
-        'handwritten': '"Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual, cursive',
-      ),
+      'items': 'font',
+      'css-vars': true,
       'output': 'standard',
       'property': 'font-family'
     ),
