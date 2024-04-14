@@ -15,17 +15,12 @@
 @use '../../config' as _c;
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
-  @each $key, $prop in $collection {
-    @if meta.type-of($prop) == 'map' {
-    
-    $items: map-get($prop, 'items');
-    
-    $output: map-get($prop, 'output');
-    
-    $property: map-get($prop, 'property');
-    
-    $use-css-vars: map-get($prop, 'css-vars');
-    
+  @each $key in $collection {
+    @if meta.type-of($collection) == 'map' {
+    $items: map-get($collection, 'items');
+    $output: map-get($collection, 'output');
+    $property: map-get($collection, 'property');
+    $use-css-vars: map-get($collection, 'css-vars');
     $vars-key: '';
 
     $selector: _n.get-namespace('classes') + $selector;
@@ -34,7 +29,7 @@
     /// 'css-vars' map in $gorko-config
     @if ($use-css-vars) {
       $vars: map-get(_c.$gorko-config, 'css-vars');
-      $vars-key: map-get($prop, 'items');
+      $vars-key: map-get($collection, 'items');
       $items: map-get($vars, $vars-key);
     }
   
