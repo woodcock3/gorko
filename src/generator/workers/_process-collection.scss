@@ -12,7 +12,7 @@
 @use 'generate-css' as _css;
 @use 'get-namespace' as _n;
 @use '../../config' as _c;
-@use '../../map-deep-get';
+@use '../../functions/map-deep-get';
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
   $items: map.get($collection, 'items');
