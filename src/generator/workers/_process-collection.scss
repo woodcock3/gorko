@@ -23,10 +23,7 @@
     $use-css-vars: map-deep-get($collection, 'props', 'css-vars');
   }
   @debug map.get($collection, 'props');
-  @debug map.get($collection, 'items');
-  @debug map.get($collection, 'output');
-  @debug map.get($collection, 'property');
-  @debug map.get($collection, 'css-vars');
+  @debug meta.type-of(map.get($collection, 'props')) == 'map';
   
   $items: map.get($collection, 'items');
   $output: map.get($collection, 'output');
