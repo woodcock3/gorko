@@ -13,39 +13,29 @@
 @use 'generate-css' as _css;
 @use 'get-namespace' as _n;
 @use '../../config' as _c;
-@use '../../functions/map-deep-get';
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
-  $items: map.get($collection, 'items');
-  $output: map.get($collection, 'output');
-  $property: map.get($collection, 'property');
-  $use-css-vars: map.get($collection, 'css-vars');
-  $vars-key: '';
+  @each $key in $collection {
+  
+    $items: map.get($collection, 'items');
+    $output: map.get($collection, 'output');
+    $property: map.get($collection, 'property');
+    $use-css-vars: map.get($collection, 'css-vars');
+    $vars-key: '';
 
-  $selector: _n.get-namespace('classes') + $selector;
+    $selector: _n.get-namespace('classes') + $selector;
 
-  /// If this collection is using CSS vars, the items come from the
-  /// 'css-vars' map in $gorko-config
-  @if ($use-css-vars) {
-    $vars: map.get(_c.$gorko-config, 'css-vars');
-    $vars-key: map.get($collection, 'items');
-    $items: map.get($vars, $vars-key);
-  }
-
-  /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
-  @if ($property and $items) {
-    @if ($output == 'responsive') {
-      @include _css.generate-css(
-        #{$prefix + $selector},
-        $property,
-        $items,
-        $use-css-vars,
-        $vars-key
-      );
+    /// If this collection is using CSS vars, the items come from the
+    /// 'css-vars' map in $gorko-config
+    @if ($use-css-vars) {
+      $vars: map.get(_c.$gorko-config, 'css-vars');
+      $vars-key: map.get($collection, 'items');
+      $items: map.get($vars, $vars-key);
     }
 
-    @if ($output == 'standard') {
-      @if ($is-breakpoint != true) {
+    /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
+    @if ($property and $items) {
+      @if ($output == 'responsive') {
         @include _css.generate-css(
           #{$prefix + $selector},
           $property,
@@ -53,6 +43,18 @@
           $use-css-vars,
           $vars-key
         );
+      }
+
+      @if ($output == 'standard') {
+        @if ($is-breakpoint != true) {
+          @include _css.generate-css(
+            #{$prefix + $selector},
+            $property,
+            $items,
+            $use-css-vars,
+            $vars-key
+          );
+        }
       }
     }
   }
