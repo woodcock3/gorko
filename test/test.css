@@ -2,6 +2,23 @@
   --my-prefix-color-dark: #1a1a1a;
   --my-prefix-color-light: #f3f3f3;
   --my-prefix-color-blush: pink;
+  --my-prefix-font-system-ui: system-ui, sans-serif;
+  --my-prefix-font-transitional: Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
+  --my-prefix-font-old-style: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, serif;
+  --my-prefix-font-humanist: Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans", source-sans-pro, sans-serif;
+  --my-prefix-font-geometric-humanist: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+  --my-prefix-font-classical-humanist: Optima, Candara, "Noto Sans", source-sans-pro, sans-serif;
+  --my-prefix-font-neo-grotesque: Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans", Arial, sans-serif;
+  --my-prefix-font-monospace-slab-serif: "Nimbus Mono PS", "Courier New", monospace;
+  --my-prefix-font-monospace-code: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+  --my-prefix-font-industrial: Bahnschrift, "DIN Alternate", "Franklin Gothic Medium", "Nimbus Sans Narrow", sans-serif-condensed, sans-serif;
+  --my-prefix-font-rounded-sans: ui-rounded, "Hiragino Maru Gothic ProN", Quicksand, Comfortaa, Manjari, "Arial Rounded MT", "Arial Rounded MT Bold", Calibri, source-sans-pro, sans-serif;
+  --my-prefix-font-slab-serif: Rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif", "Sitka Small", serif;
+  --my-prefix-font-antique: Superclarendon, "Bookman Old Style", "URW Bookman", "URW Bookman L", "Georgia Pro", Georgia, serif;
+  --my-prefix-font-didone: Didot, "Bodoni MT", "Noto Serif Display", "URW Palladio L", P052, Sylfaen, serif;
+  --my-prefix-font-handwritten: "Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual, cursive;
+  --my-prefix-font-base: --font-system-ui;
+  --my-prefix-font-mono: --font-monospace-code;
 }
 
 :root {
@@ -21,15 +38,15 @@
 }
 
 /* GORKO: auto-generated utility classes start */
-.my-prefix-bg-dark {
+.my-prefix-bg-c-dark {
   background-color: var(--my-prefix-color-dark);
 }
 
-.my-prefix-bg-light {
+.my-prefix-bg-c-light {
   background-color: var(--my-prefix-color-light);
 }
 
-.my-prefix-bg-blush {
+.my-prefix-bg-c-blush {
   background-color: var(--my-prefix-color-blush);
 }
 
@@ -61,68 +78,72 @@
   display: inherit;
 }
 
-.my-prefix-font-base {
-  font-family: Helvetica, Arial, sans-serif;
-}
-
 .my-prefix-font-system-ui {
-  font-family: system-ui, sans-serif;
+  font-family: var(--my-prefix-font-system-ui);
 }
 
 .my-prefix-font-transitional {
-  font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
+  font-family: var(--my-prefix-font-transitional);
 }
 
 .my-prefix-font-old-style {
-  font-family: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, serif;
+  font-family: var(--my-prefix-font-old-style);
 }
 
 .my-prefix-font-humanist {
-  font-family: Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans", source-sans-pro, sans-serif;
+  font-family: var(--my-prefix-font-humanist);
 }
 
 .my-prefix-font-geometric-humanist {
-  font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro, sans-serif;
+  font-family: var(--my-prefix-font-geometric-humanist);
 }
 
 .my-prefix-font-classical-humanist {
-  font-family: Optima, Candara, "Noto Sans", source-sans-pro, sans-serif;
+  font-family: var(--my-prefix-font-classical-humanist);
 }
 
 .my-prefix-font-neo-grotesque {
-  font-family: Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans", Arial, sans-serif;
+  font-family: var(--my-prefix-font-neo-grotesque);
 }
 
 .my-prefix-font-monospace-slab-serif {
-  font-family: "Nimbus Mono PS", "Courier New", monospace;
+  font-family: var(--my-prefix-font-monospace-slab-serif);
 }
 
 .my-prefix-font-monospace-code {
-  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+  font-family: var(--my-prefix-font-monospace-code);
 }
 
 .my-prefix-font-industrial {
-  font-family: Bahnschrift, "DIN Alternate", "Franklin Gothic Medium", "Nimbus Sans Narrow", sans-serif-condensed, sans-serif;
+  font-family: var(--my-prefix-font-industrial);
 }
 
 .my-prefix-font-rounded-sans {
-  font-family: ui-rounded, "Hiragino Maru Gothic ProN", Quicksand, Comfortaa, Manjari, "Arial Rounded MT", "Arial Rounded MT Bold", Calibri, source-sans-pro, sans-serif;
+  font-family: var(--my-prefix-font-rounded-sans);
 }
 
 .my-prefix-font-slab-serif {
-  font-family: Rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif", "Sitka Small", serif;
+  font-family: var(--my-prefix-font-slab-serif);
 }
 
 .my-prefix-font-antique {
-  font-family: Superclarendon, "Bookman Old Style", "URW Bookman", "URW Bookman L", "Georgia Pro", Georgia, serif;
+  font-family: var(--my-prefix-font-antique);
 }
 
 .my-prefix-font-didone {
-  font-family: Didot, "Bodoni MT", "Noto Serif Display", "URW Palladio L", P052, Sylfaen, serif;
+  font-family: var(--my-prefix-font-didone);
 }
 
 .my-prefix-font-handwritten {
-  font-family: "Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual, cursive;
+  font-family: var(--my-prefix-font-handwritten);
+}
+
+.my-prefix-font-base {
+  font-family: var(--my-prefix-font-base);
+}
+
+.my-prefix-font-mono {
+  font-family: var(--my-prefix-font-mono);
 }
 
 .my-prefix-gap-top-300 {
