@@ -15,7 +15,7 @@
 @use '../../config' as _c;
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
-  @each $key in $collection {
+  @each $collection in $collections {
   
     $items: map.get($collection, 'items');
     $output: map.get($collection, 'output');
