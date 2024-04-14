@@ -75,29 +75,31 @@
     ),
     'bg': (
       'props': (
-        'items': (
-          'fixed': 'fixed',
-          'local': 'local',
-          'scroll': 'scroll'
+        (
+          'items': (
+            'fixed': 'fixed',
+            'local': 'local',
+            'scroll': 'scroll'
           ),
-        'output': 'responsive',
-        'property': 'background-attachment'
-      ),
-      'props': (
-        'items': (
-          'bottom': 'bottom',
-          'center': 'center',
-          'left': 'left',
-          'left bottom': 'left bottom',
-          'left top': 'left top',
-          'right': 'right',
-          'right bottom': 'right bottom',
-          'right top': 'right top',
-          'top': 'top'
+          'output': 'responsive',
+          'property': 'background-attachment'
         ),
-        'output': 'responsive',
-        'property': 'background-position'
-      ),
+        (
+          'items': (
+            'bottom': 'bottom',
+            'center': 'center',
+            'left': 'left',
+            'left bottom': 'left bottom',
+            'left top': 'left top',
+            'right': 'right',
+            'right bottom': 'right bottom',
+            'right top': 'right top',
+            'top': 'top'
+          ),
+          'output': 'responsive',
+          'property': 'background-position'
+        )
+      )
     ),
     /* testing
     'bg': (
