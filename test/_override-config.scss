@@ -11,6 +11,9 @@
       'classes': true,
       'css-vars': true
     ),
+
+
+    /*** Custom properties ***/
     'css-vars': (
       'color': var.$gorko-colors,
       'font': ( // Modern font stack - https://modernfontstacks.com/
@@ -32,6 +35,9 @@
         'base': '--font-system-ui',
         'mono': '--font-monospace-code',
       ),
+
+
+      /*** Theme ***/
       'themes': (
         'default': (
           'tokens': (
@@ -68,7 +74,7 @@
       'property': 'color'
     ),
     'bg': (
-      'attachment': (
+      'props': (
         'items': (
           'fixed': 'fixed',
           'local': 'local',
@@ -77,7 +83,7 @@
         'output': 'responsive',
         'property': 'background-attachment'
       ),
-      'position': (
+      'props': (
         'items': (
           'bottom': 'bottom',
           'center': 'center',

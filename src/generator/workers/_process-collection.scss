@@ -12,12 +12,18 @@
 @use 'generate-css' as _css;
 @use 'get-namespace' as _n;
 @use '../../config' as _c;
+@use '../../map-deep-get';
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
   $items: map.get($collection, 'items');
   $output: map.get($collection, 'output');
   $property: map.get($collection, 'property');
   $use-css-vars: map.get($collection, 'css-vars');
+
+  $items: map-deep-get($collection, 'items');
+  $output: map-deep-get($collection, 'output');
+  $property: map-deep-get($collection, 'property');
+  $use-css-vars: map-deep-get($collection, 'css-vars');
   $vars-key: '';
 
   $selector: _n.get-namespace('classes') + $selector;
