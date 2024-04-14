@@ -16,12 +16,12 @@
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
   @if (map.has-key($collection, 'props')) {
-    //@debug  map-deep-get($collection, 'props', 'items');
+    @debug  map-deep-get($collection, 'props', 'items');
     @debug  map-deep-get($collection, 'props', 'output');
     @debug  map-deep-get($collection, 'props', 'property');
     @debug  map-deep-get($collection, 'props', 'css-vars');
 
-    //$items: map-deep-get($collection, 'props', 'items');
+    $items: map-deep-get($collection, 'props', 'items');
     $output: map-deep-get($collection, 'props', 'output');
     $property: map-deep-get($collection, 'props', 'property');
     $use-css-vars: map-deep-get($collection, 'props', 'css-vars');
