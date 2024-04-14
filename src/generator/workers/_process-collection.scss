@@ -15,7 +15,7 @@
 @use '../../functions/map-deep-get';
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
-  @if (map.has-keys($collection, 'props')) {
+  @if (map.has-key($collection, 'props')) {
     $items: map-deep-get($collection, 'props', 'items');
     $output: map-deep-get($collection, 'props', 'output');
     $property: map-deep-get($collection, 'props', 'property');
