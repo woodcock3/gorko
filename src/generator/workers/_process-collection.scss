@@ -32,7 +32,7 @@
       $vars-key: map.get($collection, 'items');
       $items: map.get($vars, $vars-key);
     }
-  }
+  
 
   /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
   @if ($property and $items) {
@@ -58,4 +58,5 @@
       }
     }
   }
+}
 }
