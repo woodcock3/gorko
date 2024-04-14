@@ -21,6 +21,11 @@
     $property: map-deep-get($collection, 'props', 'property');
     $use-css-vars: map-deep-get($collection, 'props', 'css-vars');
   }
+
+  @debug map.get($collection, 'items');
+  @debug map.get($collection, 'output');
+  @debug map.get($collection, 'property');
+  @debug map.get($collection, 'css-vars');
   
   $items: map.get($collection, 'items');
   $output: map.get($collection, 'output');
