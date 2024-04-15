@@ -43,13 +43,13 @@
       @debug 'property:' $property;
       $use-css-vars: map.get($item, "css-vars");
       @debug 'css-var:' $use-css-vars;
-      $vars-key: $items;
+      $vars-key: '';
 
       $selector: _n.get-namespace('classes') + $selector;
 
       @if $use-css-vars {
         $vars: map-get(_c.$gorko-config, 'css-vars');
-        $vars-key: map-get($items, 'items');
+        $vars-key: map-get($collection, 'items');
         $items: map-get($vars, $vars-key);
       }
     
