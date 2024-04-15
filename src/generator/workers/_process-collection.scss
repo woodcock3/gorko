@@ -19,6 +19,7 @@
     // Convert list to map
     $converted-collection: ();
     @each $item in $collection {
+      // Prevent exsessive looping of nested list or maps 
       @if meta.type-of($item) == 'map' {
         $converted-collection: map-merge($converted-collection, $item);
       }
