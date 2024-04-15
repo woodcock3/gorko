@@ -12,6 +12,7 @@
 
 @mixin cycle($prefix, $is-breakpoint) {
   @each $selector, $props in _c.$gorko-config {
+    // Loop over the gorko-config where the $selector is the key to a map
     @if (meta.type-of($props) == 'map') {
       @include _p.process-collection(
         $props,
@@ -20,6 +21,7 @@
         $is-breakpoint
       );
     }
+    // Loop over the gorko-config where the $selector is the key to a list of maps
     @else if (meta.type-of($props) == 'list') {
       @each $prop in $props { 
         @include _p.process-collection(
