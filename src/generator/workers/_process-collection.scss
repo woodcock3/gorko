@@ -9,6 +9,8 @@
 /// @param {bool} $is-breakpoint - A flag for the responsive generation to use to determine wether to run or not
 ///
 @use 'sass:map';
+@use 'sass:math';
+@use 'sass:list';
 @use 'sass:meta';
 @use 'generate-css' as _css;
 @use 'get-namespace' as _n;
@@ -23,9 +25,12 @@
       // Check if the item is a valid map
       @if type-of(nth($map, 1)) == 'list' {
         $converted-map: (); // Initialize an empty map
-        @for $i from 1 through length($map)/2 {
-          $key: nth($map, $i * 2 - 1); // Get the key
-          $value: nth($map, $i * 2); // Get the value
+        $map-length: math.ceil(length($map) / 2); // Calculate the length of the map
+        @for $i from 1 through $map-length {
+          $key-index: $i * 2 - 1; // Calculate the index of the key
+          $value-index: $i * 2; // Calculate the index of the value
+          $key: list.nth($map, $key-index); // Get the key
+          $value: list.nth($map, $value-index); // Get the value
           $converted-map: map.merge($converted-map, ($key: $value)); // Add key-value pair to the map
         }
         @include process-collection($converted-map, $prefix, $selector, $is-breakpoint);
