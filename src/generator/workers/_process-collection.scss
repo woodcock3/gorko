@@ -41,7 +41,7 @@
       @debug 'output:' $output;
       $property: map.get($item, "property");
       @debug 'property:' $property;
-      $css-vars: map.get($item, "css-vars");
+      $use-css-vars: map.get($item, "css-vars");
       @debug 'css-var:' $css-vars;
       $vars-key: '';
 
