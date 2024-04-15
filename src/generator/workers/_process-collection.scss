@@ -16,6 +16,7 @@
 
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
+  @debug $collection;
   @if type-of($collection) == 'map' {
     // Process a single map
     $items: map-get($collection, 'items');
