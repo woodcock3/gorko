@@ -30,15 +30,17 @@
 
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
-  @debug $collection;
+  @debug 'collection:' $collection;
   @if type-of($collection) == 'list' {
     // Process each item in the list
     @each $map in $collection {
-      
+      @debug 'map:' $map
       $converted-map: (); // Initialize an empty map
       @for $i from 1 through length($map) { // Iterate through the list
         $key: nth-or-null($map, $i); // Get the key
-        $value: nth-or-null($map, $i); // Get the value 
+        @debug 'key:' $key
+        $value: nth-or-null($map, $i); // Get the value
+        @debug 'value:' $value
           
         $converted-map: map.merge($converted-map, ($key: $value)); // Add key-value pair to the map
       }
