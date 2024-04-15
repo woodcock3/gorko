@@ -16,6 +16,7 @@
 
 $processed-properties: (); // Define a list to store processed properties
 
+
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
   // Check if the $collection is a map 
   @if meta.type-of($collection) == 'map' {
@@ -36,7 +37,7 @@ $processed-properties: (); // Define a list to store processed properties
     }
   
     /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
-    @if ($property and $items and not map-has-key($processed-properties, $property)) {
+    @if ($property and $items and index($processed-properties, $property) == null) {
       @if ($output == 'responsive') {
         @include _css.generate-css(
           #{$prefix + $selector},
@@ -58,7 +59,7 @@ $processed-properties: (); // Define a list to store processed properties
           );
         }
       }
-      $processed-properties: map-merge($processed-properties, ($property: true)); // Add the processed property to the map
+      $processed-properties: append($processed-properties, $property); // Add the processed property to the list
     }
   // Check if the $collection is a list of maps
   } @else if meta.type-of($collection) == 'list' {
