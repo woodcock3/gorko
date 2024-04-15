@@ -19,7 +19,9 @@
     // Convert list to map
     $converted-collection: ();
     @each $item in $collection {
-      $converted-collection: map-merge($converted-collection, $item);
+      @if meta.type-of($item) == 'map' {
+        $converted-collection: map-merge($converted-collection, $item);
+      }
     }
     $collection: $converted-collection;
   }
