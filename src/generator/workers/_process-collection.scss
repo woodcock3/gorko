@@ -14,6 +14,8 @@
 @use 'get-namespace' as _n;
 @use '../../config' as _c;
 
+$processed-properties: (); // Define a list to store processed properties
+
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
   // Check if the $collection is a map 
   @if meta.type-of($collection) == 'map' {
@@ -27,14 +29,14 @@
 
     /// If this collection is using CSS vars, the items come from the
     /// 'css-vars' map in $gorko-config
-   @if ($use-css-vars) {
+    @if ($use-css-vars) {
       $vars: map-get(_c.$gorko-config, 'css-vars');
       $vars-key: map-get($collection, 'items');
       $items: map-get($vars, $vars-key);
     }
   
     /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
-    @if ($property and $items) {
+    @if ($property and $items and not index($processed-properties, $property)) {
       @if ($output == 'responsive') {
         @include _css.generate-css(
           #{$prefix + $selector},
@@ -56,6 +58,7 @@
           );
         }
       }
+      $processed-properties: join($processed-properties, ($property)); // Add the processed property to the list
     }
   // Check if the $collection is a list of maps
   } @else if meta.type-of($collection) == 'list' {
