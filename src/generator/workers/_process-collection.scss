@@ -42,7 +42,7 @@
       $property: map.get($item, "property");
       @debug 'property:' $property;
       $use-css-vars: map.get($item, "css-vars");
-      @debug 'css-var:' $css-vars;
+      @debug 'css-var:' $use-css-vars;
       $vars-key: '';
 
       $selector: _n.get-namespace('classes') + $selector;
