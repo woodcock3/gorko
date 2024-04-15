@@ -50,787 +50,87 @@
   color: var(--my-prefix-color-blush);
 }
 
-.my-prefix-bg-dark {
-  background-color: var(--my-prefix-color-dark);
-}
-
-.my-prefix-bg-light {
-  background-color: var(--my-prefix-color-light);
-}
-
-.my-prefix-bg-blush {
-  background-color: var(--my-prefix-color-blush);
-}
-
-.my-prefix-my-prefix-bg-fixed {
-  background-attachment: fixed;
-}
-
-.my-prefix-my-prefix-bg-local {
-  background-attachment: local;
-}
-
-.my-prefix-my-prefix-bg-scroll {
-  background-attachment: scroll;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-bottom {
-  background-position: bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-center {
-  background-position: center;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left {
-  background-position: left;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left bottom {
-  background-position: left bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left top {
-  background-position: left top;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right {
-  background-position: right;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right bottom {
-  background-position: right bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right top {
-  background-position: right top;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-top {
-  background-position: top;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-  background-repeat: repeat;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-  background-repeat: repeat-x;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-  background-repeat: repeat-y;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-  background-repeat: round;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-  background-repeat: space;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-  background-size: auto;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-  background-size: cover;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-  background-size: contain;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-  background-color: unset;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+.my-prefix-bg-border {
   background-clip: border-box;
 }
 
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+.my-prefix-bg-clip-content {
   background-clip: content-box;
 }
 
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+.my-prefix-bg-clip-padding {
   background-clip: padding-box;
 }
 
-.my-prefix-bg-dark {
-  background-color: var(--my-prefix-color-dark);
-}
-
-.my-prefix-bg-light {
-  background-color: var(--my-prefix-color-light);
-}
-
-.my-prefix-bg-blush {
-  background-color: var(--my-prefix-color-blush);
-}
-
-.my-prefix-my-prefix-bg-fixed {
-  background-attachment: fixed;
-}
-
-.my-prefix-my-prefix-bg-local {
-  background-attachment: local;
-}
-
-.my-prefix-my-prefix-bg-scroll {
-  background-attachment: scroll;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-bottom {
-  background-position: bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-center {
-  background-position: center;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left {
-  background-position: left;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left bottom {
-  background-position: left bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left top {
-  background-position: left top;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right {
-  background-position: right;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right bottom {
-  background-position: right bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right top {
-  background-position: right top;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-top {
-  background-position: top;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-  background-repeat: repeat;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-  background-repeat: repeat-x;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-  background-repeat: repeat-y;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-  background-repeat: round;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-  background-repeat: space;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-  background-size: auto;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-  background-size: cover;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-  background-size: contain;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-  background-color: unset;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+.my-prefix-bg-border {
   background-clip: border-box;
 }
 
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+.my-prefix-bg-clip-content {
   background-clip: content-box;
 }
 
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+.my-prefix-bg-clip-padding {
   background-clip: padding-box;
 }
 
-.my-prefix-bg-dark {
-  background-color: var(--my-prefix-color-dark);
-}
-
-.my-prefix-bg-light {
-  background-color: var(--my-prefix-color-light);
-}
-
-.my-prefix-bg-blush {
-  background-color: var(--my-prefix-color-blush);
-}
-
-.my-prefix-my-prefix-bg-fixed {
-  background-attachment: fixed;
-}
-
-.my-prefix-my-prefix-bg-local {
-  background-attachment: local;
-}
-
-.my-prefix-my-prefix-bg-scroll {
-  background-attachment: scroll;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-bottom {
-  background-position: bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-center {
-  background-position: center;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left {
-  background-position: left;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left bottom {
-  background-position: left bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left top {
-  background-position: left top;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right {
-  background-position: right;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right bottom {
-  background-position: right bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right top {
-  background-position: right top;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-top {
-  background-position: top;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-  background-repeat: repeat;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-  background-repeat: repeat-x;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-  background-repeat: repeat-y;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-  background-repeat: round;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-  background-repeat: space;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-  background-size: auto;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-  background-size: cover;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-  background-size: contain;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-  background-color: unset;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+.my-prefix-bg-border {
   background-clip: border-box;
 }
 
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+.my-prefix-bg-clip-content {
   background-clip: content-box;
 }
 
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+.my-prefix-bg-clip-padding {
   background-clip: padding-box;
 }
 
-.my-prefix-bg-dark {
-  background-color: var(--my-prefix-color-dark);
-}
-
-.my-prefix-bg-light {
-  background-color: var(--my-prefix-color-light);
-}
-
-.my-prefix-bg-blush {
-  background-color: var(--my-prefix-color-blush);
-}
-
-.my-prefix-my-prefix-bg-fixed {
-  background-attachment: fixed;
-}
-
-.my-prefix-my-prefix-bg-local {
-  background-attachment: local;
-}
-
-.my-prefix-my-prefix-bg-scroll {
-  background-attachment: scroll;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-bottom {
-  background-position: bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-center {
-  background-position: center;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left {
-  background-position: left;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left bottom {
-  background-position: left bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left top {
-  background-position: left top;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right {
-  background-position: right;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right bottom {
-  background-position: right bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right top {
-  background-position: right top;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-top {
-  background-position: top;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-  background-repeat: repeat;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-  background-repeat: repeat-x;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-  background-repeat: repeat-y;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-  background-repeat: round;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-  background-repeat: space;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-  background-size: auto;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-  background-size: cover;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-  background-size: contain;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-  background-color: unset;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+.my-prefix-bg-border {
   background-clip: border-box;
 }
 
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+.my-prefix-bg-clip-content {
   background-clip: content-box;
 }
 
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+.my-prefix-bg-clip-padding {
   background-clip: padding-box;
 }
 
-.my-prefix-bg-dark {
-  background-color: var(--my-prefix-color-dark);
-}
-
-.my-prefix-bg-light {
-  background-color: var(--my-prefix-color-light);
-}
-
-.my-prefix-bg-blush {
-  background-color: var(--my-prefix-color-blush);
-}
-
-.my-prefix-my-prefix-bg-fixed {
-  background-attachment: fixed;
-}
-
-.my-prefix-my-prefix-bg-local {
-  background-attachment: local;
-}
-
-.my-prefix-my-prefix-bg-scroll {
-  background-attachment: scroll;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-bottom {
-  background-position: bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-center {
-  background-position: center;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left {
-  background-position: left;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left bottom {
-  background-position: left bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left top {
-  background-position: left top;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right {
-  background-position: right;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right bottom {
-  background-position: right bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right top {
-  background-position: right top;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-top {
-  background-position: top;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-  background-repeat: repeat;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-  background-repeat: repeat-x;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-  background-repeat: repeat-y;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-  background-repeat: round;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-  background-repeat: space;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-  background-size: auto;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-  background-size: cover;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-  background-size: contain;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-  background-color: unset;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+.my-prefix-bg-border {
   background-clip: border-box;
 }
 
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+.my-prefix-bg-clip-content {
   background-clip: content-box;
 }
 
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+.my-prefix-bg-clip-padding {
   background-clip: padding-box;
 }
 
-.my-prefix-bg-dark {
-  background-color: var(--my-prefix-color-dark);
-}
-
-.my-prefix-bg-light {
-  background-color: var(--my-prefix-color-light);
-}
-
-.my-prefix-bg-blush {
-  background-color: var(--my-prefix-color-blush);
-}
-
-.my-prefix-my-prefix-bg-fixed {
-  background-attachment: fixed;
-}
-
-.my-prefix-my-prefix-bg-local {
-  background-attachment: local;
-}
-
-.my-prefix-my-prefix-bg-scroll {
-  background-attachment: scroll;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-bottom {
-  background-position: bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-center {
-  background-position: center;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left {
-  background-position: left;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left bottom {
-  background-position: left bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left top {
-  background-position: left top;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right {
-  background-position: right;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right bottom {
-  background-position: right bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right top {
-  background-position: right top;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-top {
-  background-position: top;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-  background-repeat: repeat;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-  background-repeat: repeat-x;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-  background-repeat: repeat-y;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-  background-repeat: round;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-  background-repeat: space;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-  background-size: auto;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-  background-size: cover;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-  background-size: contain;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-  background-color: unset;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+.my-prefix-bg-border {
   background-clip: border-box;
 }
 
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+.my-prefix-bg-clip-content {
   background-clip: content-box;
 }
 
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+.my-prefix-bg-clip-padding {
   background-clip: padding-box;
 }
 
-.my-prefix-bg-dark {
-  background-color: var(--my-prefix-color-dark);
-}
-
-.my-prefix-bg-light {
-  background-color: var(--my-prefix-color-light);
-}
-
-.my-prefix-bg-blush {
-  background-color: var(--my-prefix-color-blush);
-}
-
-.my-prefix-my-prefix-bg-fixed {
-  background-attachment: fixed;
-}
-
-.my-prefix-my-prefix-bg-local {
-  background-attachment: local;
-}
-
-.my-prefix-my-prefix-bg-scroll {
-  background-attachment: scroll;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-bottom {
-  background-position: bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-center {
-  background-position: center;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left {
-  background-position: left;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left bottom {
-  background-position: left bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-left top {
-  background-position: left top;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right {
-  background-position: right;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right bottom {
-  background-position: right bottom;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-right top {
-  background-position: right top;
-}
-
-.my-prefix-my-prefix-my-prefix-bg-top {
-  background-position: top;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-  background-repeat: repeat;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-  background-repeat: repeat-x;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-  background-repeat: repeat-y;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-  background-repeat: round;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-  background-repeat: space;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-  background-size: auto;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-  background-size: cover;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-  background-size: contain;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-  background-color: unset;
-}
-
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+.my-prefix-bg-border {
   background-clip: border-box;
 }
 
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+.my-prefix-bg-clip-content {
   background-clip: content-box;
 }
 
-.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+.my-prefix-bg-clip-padding {
   background-clip: padding-box;
 }
 
@@ -1183,529 +483,67 @@
 }
 
 @media (min-width: 36em) {
-  .sm\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .sm\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .sm\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .sm\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .sm\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .sm\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .sm\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .sm\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .sm\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .sm\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .sm\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .sm\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .sm\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .sm\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .sm\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .sm\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .sm\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .sm\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .sm\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .sm\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .sm\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .sm\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .sm\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .sm\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .sm\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .sm\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .sm\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .sm\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .sm\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .sm\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .sm\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .sm\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .sm\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .sm\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .sm\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .sm\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .sm\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .sm\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .sm\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .sm\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .sm\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .sm\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
   .sm\:my-prefix-box-block {
@@ -1752,529 +590,67 @@
   }
 }
 @media (min-width: 48em) {
-  .md\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .md\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .md\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .md\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .md\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .md\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .md\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .md\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .md\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .md\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .md\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .md\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .md\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .md\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .md\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .md\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .md\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .md\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .md\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .md\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .md\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .md\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .md\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .md\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .md\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .md\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .md\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .md\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .md\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .md\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .md\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .md\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .md\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .md\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .md\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .md\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .md\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .md\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .md\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .md\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .md\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .md\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
   .md\:my-prefix-box-block {
@@ -2321,529 +697,67 @@
   }
 }
 @media (min-width: 62em) {
-  .lg\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .lg\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .lg\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .lg\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .lg\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .lg\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .lg\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .lg\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .lg\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .lg\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .lg\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .lg\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .lg\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .lg\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .lg\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .lg\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .lg\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .lg\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .lg\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .lg\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .lg\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .lg\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .lg\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .lg\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .lg\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .lg\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .lg\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .lg\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .lg\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .lg\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .lg\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .lg\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .lg\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .lg\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .lg\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .lg\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
-  .lg\:my-prefix-my-prefix-bg-fixed {
-    background-attachment: fixed;
-  }
-  .lg\:my-prefix-my-prefix-bg-local {
-    background-attachment: local;
-  }
-  .lg\:my-prefix-my-prefix-bg-scroll {
-    background-attachment: scroll;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-bottom {
-    background-position: bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-center {
-    background-position: center;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left {
-    background-position: left;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left bottom {
-    background-position: left bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-left top {
-    background-position: left top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right {
-    background-position: right;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right bottom {
-    background-position: right bottom;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-right top {
-    background-position: right top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-bg-top {
-    background-position: top;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat {
-    background-repeat: repeat;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-round {
-    background-repeat: round;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-bg-repeat-space {
-    background-repeat: space;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-auto {
-    background-size: auto;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-cover {
-    background-size: cover;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-contain {
-    background-size: contain;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-unset {
-    background-color: unset;
-  }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-border {
+  .lg\:my-prefix-bg-border {
     background-clip: border-box;
   }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-content {
+  .lg\:my-prefix-bg-clip-content {
     background-clip: content-box;
   }
-  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-bg-clip-padding {
+  .lg\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
   }
   .lg\:my-prefix-box-block {
