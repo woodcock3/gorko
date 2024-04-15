@@ -57,5 +57,11 @@
         }
       }
     }
+  } @else if meta.type-of($collection) == 'list' {
+    @each $map in $collection {
+      @include process-collection($map, $prefix, $selector, $is-breakpoint);
+    }
+  } @else {
+    @error "Invalid collection type: #{$collection}. Expected map or list.";
   }
 }
