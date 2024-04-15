@@ -13,14 +13,22 @@
 @mixin cycle($prefix, $is-breakpoint) {
   @each $selector, $props in _c.$gorko-config {
     @if (meta.type-of($props) == 'map') {
-      @debug $selector;
-      @debug $props;
       @include _p.process-collection(
         $props,
         $prefix,
         $selector,
         $is-breakpoint
       );
+    }
+    @else if (meta.type-of($props) == 'list') {
+      @each $prop in $props { 
+        @include _p.process-collection(
+          $props,
+          $prefix,
+          $selector,
+          $is-breakpoint
+        );
+      }
     }
   }
 }
