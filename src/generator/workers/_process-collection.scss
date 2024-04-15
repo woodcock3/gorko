@@ -15,8 +15,8 @@
 @use '../../config' as _c;
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
-   @if meta.type-of($collection) == 'map' {
-    // Process the map
+  // Check if the $collection is a map 
+  @if meta.type-of($collection) == 'map' {
     $items: map-get($collection, 'items');
     $output: map-get($collection, 'output');
     $property: map-get($collection, 'property');
@@ -27,66 +27,15 @@
 
     /// If this collection is using CSS vars, the items come from the
     /// 'css-vars' map in $gorko-config
-    @if $use-css-vars {
+   @if ($use-css-vars) {
       $vars: map-get(_c.$gorko-config, 'css-vars');
       $vars-key: map-get($collection, 'items');
       $items: map-get($vars, $vars-key);
     }
-    
-    /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
-    @if $property and $items {
-      @if $output == 'responsive' {
-        @include _css.generate-css(
-          #{$prefix + $selector},
-          $property,
-          $items,
-          $use-css-vars,
-          $vars-key
-        );
-      }
-
-      @if $output == 'standard' {
-        @if not $is-breakpoint {
-          @include _css.generate-css(
-            #{$prefix + $selector},
-            $property,
-            $items,
-            $use-css-vars,
-            $vars-key
-          );
-        }
-      }
-    }
-  } @else if meta.type-of($collection) == 'list' {
-    $items: null;
-    $output: null;
-    $property: null;
-    $use-css-vars: null;
-    $vars-key: '';
-    // Process each item in the list
-    @each $list in $collection {
-      // Extract values from the current collection
-      $items: map.get($list, "items");
-      @debug 'items:' $items;
-      $output: map.get($list, "output");
-      @debug 'output:' $output;
-      $property: map.get($list, "property");
-      @debug 'property:' $property;
-      $use-css-vars: map.get($list, "css-vars");
-      @debug 'css-var:' $use-css-vars;
-    }
   
-    $selector: _n.get-namespace('classes') + $selector;
-
-    @if $use-css-vars {
-      $vars: map-get(_c.$gorko-config, 'css-vars');
-      $vars-key: map-get($list, 'items');
-      $items: map-get($vars, $vars-key);
-    }      
-    
     /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
-    @if $property and $items {
-      @if $output == 'responsive' {
+    @if ($property and $items) {
+      @if ($output == 'responsive') {
         @include _css.generate-css(
           #{$prefix + $selector},
           $property,
@@ -96,8 +45,8 @@
         );
       }
 
-      @if $output == 'standard' {
-        @if not $is-breakpoint {
+      @if ($output == 'standard') {
+        @if ($is-breakpoint != true) {
           @include _css.generate-css(
             #{$prefix + $selector},
             $property,
@@ -108,5 +57,13 @@
         }
       }
     }
+  // Check if the $collection is a list of maps
+  } @else if meta.type-of($collection) == 'list' {
+    @each $map in $collection {
+      // For each $map in the $collection process it through the process-collection mixin 
+      @include process-collection($map, $prefix, $selector, $is-breakpoint);
+    }
+  } @else {
+    @error "Invalid collection type: #{$collection}. Expected map or list of maps.";
   }
 }
