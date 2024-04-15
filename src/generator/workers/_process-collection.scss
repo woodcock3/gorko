@@ -37,9 +37,13 @@
       @each $item in $collection {
   // Extract values from the current collection
   $items: map.get($item, "items");
+        @debug 'items:' $items;
   $output: map.get($item, "output");
+        @debug 'output:' $output;
   $property: map.get($item, "property");
+        @debug 'property:' $property;
   $css-vars: map.get($item, "css-vars");
+        @debug 'css-var:' $css-var;
 
         //@debug "Items: #{$items}, Output: #{$output}, Property: #{$property}, CSS Vars: #{$css-vars}";
 }
