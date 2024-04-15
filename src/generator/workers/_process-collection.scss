@@ -30,7 +30,6 @@
 
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
-  @debug 'collection:' $collection;
   @if type-of($collection) == 'list' {
     // Process each item in the list
       @debug 'collection:' $collection;
