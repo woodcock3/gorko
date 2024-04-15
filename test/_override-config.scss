@@ -58,22 +58,22 @@
         )
       )
     ),
-
-
-    /*** Background ***/
-    'bg-c': (
-      'items': 'color',
-      'css-vars': true,
-      'output': 'standard',
-      'property': 'background-color'
-    ),
     'color': (
       'items': 'color',
       'css-vars': true,
       'output': 'standard',
       'property': 'color'
     ),
+
+    
+    /*** Background ***/
     'bg': (
+      (
+        'items': 'color',
+        'css-vars': true,
+        'output': 'standard',
+        'property': 'background-color'
+      ),
       (
         'items': (
           'fixed': 'fixed',
@@ -97,149 +97,149 @@
         ),
         'output': 'responsive',
         'property': 'background-position'
+      ),
+      (
+        'items': (
+          'repeat': 'repeat',
+          'no-repeat': 'no-repeat',
+          'repeat-x': 'repeat-x',
+          'repeat-y': 'repeat-y',
+          'repeat-round': 'round',
+          'repeat-space': 'space'
+        ),
+        'output': 'responsive',
+        'property': 'background-repeat'
+      ),
+      (
+        'items': (
+          'auto': 'auto',
+          'cover': 'cover',
+          'contain': 'contain',
+        ),
+        'output': 'responsive',
+        'property': 'background-size'
+      ),
+      (
+        'items': (
+          'unset': 'unset', 
+        ),
+        'output': 'responsive',
+        'property': 'background-color'
+      ),
+      (
+        'items': (
+          'border': 'border-box',
+          'clip-content': 'content-box',
+          'clip-padding': 'padding-box',
+        
+          /*TO DO:
+          .bg-clip-text{
+              background-clip:text;
+              -webkit-background-clip:text;
+              color:transparent;
+          } */
+        ), 
+        'output': 'responsive',
+        'property': 'background-clip'
       )
     ),
-    /* testing
-    'bg': (
-      'items': (
-        'repeat': 'repeat',
-        'no-repeat': 'no-repeat',
-        'repeat-x': 'repeat-x',
-        'repeat-y': 'repeat-y',
-        'repeat-round': 'round',
-        'repeat-space': 'space'
-        ),
-      'output': 'responsive',
-      'property': 'background-repeat'
-    ),
-    'bg': (
-      'items': (
-        'auto': 'auto',
-        'cover': 'cover',
-        'contain': 'contain',
-        ),
-      'output': 'responsive',
-      'property': 'background-size'
-    ),
-    'bg': (
-      'items': (
-        'unset': 'unset', 
-        ),
-      'output': 'responsive',
-      'property': 'background-color'
-    ),
-    'bg': (
-      'items': (
-        'border': 'border-box',
-        'clip-content': 'content-box',
-        'clip-padding': 'padding-box',
-        
-        TO DO:
-        .bg-clip-text{
-            background-clip:text;
-            -webkit-background-clip:text;
-            color:transparent;
-        } 
-        ),
-      'output': 'responsive',
-      'property': 'background-clip'
-    ),
-    */
 
     /*** Border ***/
-    /*
     'border': (
-      'items': (
-        'solid': 'solid',
-        'dashed': 'dashed',
-        'dotted': 'dotted',
-        'double': 'double',
-        'none': 'none',
+      (
+        'items': (
+          'solid': 'solid',
+          'dashed': 'dashed',
+          'dotted': 'dotted',
+          'double': 'double',
+          'none': 'none',
         ),
-      'output': 'responsive',
-      'property': 'border-style'
-    ),
-    'border': (
-      'items': (
-        'bs-none': 'none',
+        'output': 'responsive',
+        'property': 'border-style'
+      ),
+      (
+        'items': (
+          'bs-none': 'none',
         ),
-      'output': 'responsive',
-      'property': 'border-block-start'
-    ),
-    'border': (
-      'items': (
-        'be-none': 'none',
+        'output': 'responsive',
+        'property': 'border-block-start'
+      ),
+      (
+        'items': (
+          'be-none': 'none',
         ),
-      'output': 'responsive',
-      'property': 'border-block-end'
-    ),
-    'border': (
-      'items': (
-        'is-none': 'none',
+        'output': 'responsive',
+        'property': 'border-block-end'
+      ),
+      (
+        'items': (
+          'is-none': 'none',
         ),
-      'output': 'responsive',
-      'property': 'border-inline-start'
-    ),
-    'border': (
-      'items': (
-        'ie-none': 'none',
+        'output': 'responsive',
+        'property': 'border-inline-start'
+      ),
+      (
+        'items': (
+          'ie-none': 'none',
         ),
-      'output': 'responsive',
-      'property': 'border-inline-end'
-    ),
-    'border': (
-      'items': (
-        '0': '0px',
-        '1': '1px',
-        '2': '2px',
-        '3': '4px',
+        'output': 'responsive',
+        'property': 'border-inline-end'
+      ),
+      (
+        'items': (
+          '0': '0px',
+          '1': '1px',
+          '2': '2px',
+          '3': '4px',
         ),
-      'output': 'responsive',
-      'property': 'border-width'
-    ),
-    'border': (
-      'items': (
-        'bs0': '0px',
-        'bs1': '1px',
-        'bs2': '2px',
-        'bs3': '4px',
+        'output': 'responsive',
+        'property': 'border-width'
+      ),
+      (
+        'items': (
+          'bs0': '0px',
+          'bs1': '1px',
+          'bs2': '2px',
+          'bs3': '4px',
         ),
-      'output': 'responsive',
-      'property': 'border-block-start-width'
-    ),
-    'border': (
-      'items': (
-        'be0': '0px',
-        'be1': '1px',
-        'be2': '2px',
-        'be3': '4px',
+        'output': 'responsive',
+        'property': 'border-block-start-width'
+      ),
+      (
+        'items': (
+          'be0': '0px',
+          'be1': '1px',
+          'be2': '2px',
+          'be3': '4px',
         ),
-      'output': 'responsive',
-      'property': 'border-block-end-width'
-    ),
-    'border': (
-      'items': (
-        'is0': '0px',
-        'is1': '1px',
-        'is2': '2px',
-        'is3': '4px',
+        'output': 'responsive',
+        'property': 'border-block-end-width'
+      ),
+      (
+        'items': (
+          'is0': '0px',
+          'is1': '1px',
+          'is2': '2px',
+          'is3': '4px',
         ),
-      'output': 'responsive',
-      'property': 'border-inline-start-width'
-    ),
-    'border': (
-      'items': (
-        'ie0': '0px',
-        'ie1': '1px',
-        'ie2': '2px',
-        'ie3': '4px',
+        'output': 'responsive',
+        'property': 'border-inline-start-width'
+      ),
+      (
+        'items': (
+          'ie0': '0px',
+          'ie1': '1px',
+          'ie2': '2px',
+          'ie3': '4px',
         ),
-      'output': 'responsive',
-      'property': 'border-inline-end-width'
+        'output': 'responsive',
+        'property': 'border-inline-end-width'
+      )
     ),
-    */
     
-    /*** Radius ***/ 
+    
+    /*** Radius ***/
+    // TO DO - Radius
     'box': (
       'items': (
         'block': 'block',

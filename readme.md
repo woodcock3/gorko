@@ -322,21 +322,44 @@ You can add as many or as little of these as you like and call them whatever you
 
 The utility class generator loops through `$gorko-config` looking for items that have a valid utility class structure. The following structure is required to generate a utility class:
 
+**Example 1**
 ```scss
 'width':('items':('full':'100%','half': '50%'
   ),
   'output': 'standard',
   'property': 'width'
-),;
+);
 ```
 
-The first key is the name of the utility and that contains a Sass map. Inside that map, you need to have the following:
+Or if you wish that ultity classes share the same key, the utility class generator will also accept the following structure:
+
+**Example 2**
+```scss
+'bg': 
+  (
+    (
+      'items': 'color', 
+      'css-vars': true,
+      'output': 'standard',
+      'property': 'background-color'
+    ),
+    (
+      'items': ('fixed': 'fixed', 'local': 'local', 'scroll': 'scroll'),
+      'output': 'responsive',
+      'property': 'background-attachment'
+    )
+  );
+```
+
+For example 1, the first key is the name of the utility and that contains a Sass map. Inside that map, you need to have the following:
 
 - `items`: a map of key/value pairs which link a utility class to a CSS property’s value. If you want to use CSS Custom Properties, this should be the string key, referencing the `'css-vars'` `$gorko-config` group that you want to use
 - `output`: this must be `responsive` or `standard`. If you set it to `responsive`, it will generate the same utility class for **every breakpoint that is defined**.
 - `property`: the [CSS property](https://css-tricks.com/almanac/properties/) that this utility controls.
 
-### Example outputs
+For example 2, the same props are required: `utility class name key`, `items`, `output` and `property`. However within the utility class name key the props can be written as a list of sass maps.
+
+### Example 1 outputs
 
 The above structure would output the following utility classes:
 
