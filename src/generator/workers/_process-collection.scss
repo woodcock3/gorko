@@ -39,8 +39,6 @@
         @debug 'key:' $collection;
         $value: nth-or-null($collection, $i); // Get the value
         @debug 'value:' $collection;
-          
-        $converted-map: map.merge($converted-map, ($key: $value)); // Add key-value pair to the map
       }
   } @else if type-of($collection) == 'map' {
     // Process the map
