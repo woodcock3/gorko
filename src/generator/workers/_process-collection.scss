@@ -38,7 +38,7 @@
       @for $i from 1 through length($collection) { // Iterate through the list
         $key: nth-or-null($collection, $i); // Get the key
         @debug 'key:' $collection;
-        $value: nth-or-null($map, $i); // Get the value
+        $value: nth-or-null($collection, $i); // Get the value
         @debug 'value:' $collection;
           
         $converted-map: map.merge($converted-map, ($key: $value)); // Add key-value pair to the map
