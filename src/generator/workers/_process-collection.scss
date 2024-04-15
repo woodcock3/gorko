@@ -57,11 +57,13 @@
         }
       }
     }
+  // Check if the $collection is a list of maps
   } @else if meta.type-of($collection) == 'list' {
     @each $map in $collection {
+      // For each $map in the $collection process it through the process-collection mixin 
       @include process-collection($map, $prefix, $selector, $is-breakpoint);
     }
   } @else {
-    @error "Invalid collection type: #{$collection}. Expected map or list.";
+    @error "Invalid collection type: #{$collection}. Expected map or list of maps.";
   }
 }
