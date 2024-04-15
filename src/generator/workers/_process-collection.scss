@@ -14,21 +14,10 @@
 @use 'get-namespace' as _n;
 @use '../../config' as _c;
 
+
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
-  @if meta.type-of($collection) == 'list' {
-    // Convert list to map
-    $converted-collection: ();
-    @each $item in $collection {
-      // Prevent exsessive looping of nested list or maps 
-      @if meta.type-of($item) == 'map' {
-        $converted-collection: map-merge($converted-collection, $item);
-      }
-    }
-    $collection: $converted-collection;
-  }
-  
-  // Check if the $collection is a map 
-  @if meta.type-of($collection) == 'map' {
+  @if type-of($collection) == 'map' {
+    // Process a single map
     $items: map-get($collection, 'items');
     $output: map-get($collection, 'output');
     $property: map-get($collection, 'property');
@@ -39,15 +28,15 @@
 
     /// If this collection is using CSS vars, the items come from the
     /// 'css-vars' map in $gorko-config
-   @if ($use-css-vars) {
+    @if $use-css-vars {
       $vars: map-get(_c.$gorko-config, 'css-vars');
       $vars-key: map-get($collection, 'items');
       $items: map-get($vars, $vars-key);
     }
-  
+    
     /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
-    @if ($property and $items) {
-      @if ($output == 'responsive') {
+    @if $property and $items {
+      @if $output == 'responsive' {
         @include _css.generate-css(
           #{$prefix + $selector},
           $property,
@@ -57,8 +46,8 @@
         );
       }
 
-      @if ($output == 'standard') {
-        @if ($is-breakpoint != true) {
+      @if $output == 'standard' {
+        @if not $is-breakpoint {
           @include _css.generate-css(
             #{$prefix + $selector},
             $property,
@@ -69,5 +58,12 @@
         }
       }
     }
+  } @else if type-of($collection) == 'list' {
+    // Process a list of maps
+    @each $map in $collection {
+      @include process-collection($map, $prefix, $selector, $is-breakpoint);
+    }
+  } @else {
+    @error "Invalid collection type: #{$collection}. Expected map or list.";
   }
 }
