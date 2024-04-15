@@ -35,6 +35,7 @@
     $output: null;
     $property: null;
     $use-css-vars: null;
+    $vars-key: '';
     // Process each item in the list
     @each $list in $collection {
       // Extract values from the current collection
@@ -46,7 +47,6 @@
       @debug 'property:' $property;
       $use-css-vars: map.get($list, "css-vars");
       @debug 'css-var:' $use-css-vars;
-      $vars-key: '';
     }
   
     $selector: _n.get-namespace('classes') + $selector;
