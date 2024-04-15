@@ -34,17 +34,15 @@
   @if type-of($collection) == 'list' {
     // Process each item in the list
     @each $map in $collection {
-      // Check if the item is a valid map
-      @if type-of(nth($map, 1)) == 'list' {
-        $converted-map: (); // Initialize an empty map
-        @for $i from 1 through length($map) { // Iterate through the list
-          $key: nth-or-null($map, $i); // Get the key
-          $value: nth-or-null($map, $i); // Get the value 
+      
+      $converted-map: (); // Initialize an empty map
+      @for $i from 1 through length($map) { // Iterate through the list
+        $key: nth-or-null($map, $i); // Get the key
+        $value: nth-or-null($map, $i); // Get the value 
           
-          $converted-map: map.merge($converted-map, ($key: $value)); // Add key-value pair to the map
-        }
-        @include process-collection($converted-map, $prefix, $selector, $is-breakpoint);
+        $converted-map: map.merge($converted-map, ($key: $value)); // Add key-value pair to the map
       }
+      @include process-collection($converted-map, $prefix, $selector, $is-breakpoint);
     }
   } @else if type-of($collection) == 'map' {
     // Process the map
