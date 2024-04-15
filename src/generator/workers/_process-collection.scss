@@ -39,7 +39,7 @@
         $converted-map: (); // Initialize an empty map
         @for $i from 1 through length($map) { // Iterate through the list
           $key: nth-or-null($map, $i); // Get the key
-          $value: nthor-null($map, $i); // Get the value 
+          $value: nth-or-null($map, $i); // Get the value 
           
           $converted-map: map.merge($converted-map, ($key: $value)); // Add key-value pair to the map
         }
