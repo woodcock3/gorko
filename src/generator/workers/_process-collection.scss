@@ -34,10 +34,15 @@
     // Process each item in the list
       @debug 'collection:' $collection;
 
-      $items: map-get($collection, 'items');
-      $output: map-get($collection, 'output');
-      $property: map-get($collection, 'property');
-      $use-css-vars: map-get($collection, 'css-vars');
+      @each $item in $collection {
+  // Extract values from the current collection
+  $items: map.get($item, "items");
+  $output: map.get($item, "output");
+  $property: map.get($item, "property");
+  $css-vars: map.get($item, "css-vars");
+
+        @debug "Items: #{$items}, Output: #{$output}, Property: #{$property}, CSS Vars: #{$css-vars}";
+}
     
       $converted-map: (); // Initialize an empty map
       @for $i from 1 through length($collection) { // Iterate through the list
