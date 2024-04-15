@@ -14,10 +14,9 @@
 @use 'get-namespace' as _n;
 @use '../../config' as _c;
 
-$processed-properties: (); // Define a list to store processed properties
-
-
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
+  $processed-properties: (); // Define a list to store processed properties
+
   // Check if the $collection is a map 
   @if meta.type-of($collection) == 'map' {
     $items: map-get($collection, 'items');
