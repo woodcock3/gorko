@@ -33,15 +33,15 @@
   @if type-of($collection) == 'list' {
           
     // Process each item in the list
-    @each $item in $collection {
+    @each $list in $collection {
       // Extract values from the current collection
-      $items: map.get($item, "items");
+      $items: map.get($list, "items");
       @debug 'items:' $items;
-      $output: map.get($item, "output");
+      $output: map.get($list, "output");
       @debug 'output:' $output;
-      $property: map.get($item, "property");
+      $property: map.get($list, "property");
       @debug 'property:' $property;
-      $use-css-vars: map.get($item, "css-vars");
+      $use-css-vars: map.get($list, "css-vars");
       @debug 'css-var:' $use-css-vars;
       $vars-key: '';
 
@@ -49,7 +49,7 @@
 
       @if $use-css-vars {
         $vars: map-get(_c.$gorko-config, 'css-vars');
-        $vars-key: map-get($collection, 'items');
+        $vars-key: map-get($list, 'items');
         $items: map-get($vars, $vars-key);
       }
     
