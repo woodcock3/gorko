@@ -9,53 +9,29 @@
 /// @param {bool} $is-breakpoint - A flag for the responsive generation to use to determine wether to run or not
 ///
 @use 'sass:map';
-@use 'sass:math';
-@use 'sass:list';
 @use 'sass:meta';
 @use 'generate-css' as _css;
 @use 'get-namespace' as _n;
 @use '../../config' as _c;
 
-/// NTH OR NULL FUNCTION
-/// Safely retrieve an element from a list at a specified index or return null if out of bounds.
-/// This is need because sass $index start at 1 and throws error if zero, empty or null
-///
-/// @param {list} $list - The list from which to retrieve the element.
-/// @param {number} $index - The index of the element to retrieve.
-/// @return {any} - The element at the specified index or null if out of bounds.
-
-@function nth-or-null($list, $index) {
-  @return if(length($list) >= $index, nth($list, $index), null);
-}
-
-
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
-  @if type-of($collection) == 'list' {
-    $items: null;
-    $output: null;
-    $property: null;
-    $use-css-vars: null;
+   @if meta.type-of($collection) == 'map' {
+    // Process the map
+    $items: map-get($collection, 'items');
+    $output: map-get($collection, 'output');
+    $property: map-get($collection, 'property');
+    $use-css-vars: map-get($collection, 'css-vars');
     $vars-key: '';
-    // Process each item in the list
-    @each $list in $collection {
-      // Extract values from the current collection
-      $items: map.get($list, "items");
-      @debug 'items:' $items;
-      $output: map.get($list, "output");
-      @debug 'output:' $output;
-      $property: map.get($list, "property");
-      @debug 'property:' $property;
-      $use-css-vars: map.get($list, "css-vars");
-      @debug 'css-var:' $use-css-vars;
-    }
-  
+
     $selector: _n.get-namespace('classes') + $selector;
 
+    /// If this collection is using CSS vars, the items come from the
+    /// 'css-vars' map in $gorko-config
     @if $use-css-vars {
       $vars: map-get(_c.$gorko-config, 'css-vars');
-      $vars-key: map-get($list, 'items');
+      $vars-key: map-get($collection, 'items');
       $items: map-get($vars, $vars-key);
-    }      
+    }
     
     /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
     @if $property and $items {
@@ -81,23 +57,32 @@
         }
       }
     }
-  } @else if type-of($collection) == 'map' {
-    // Process the map
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
+  } @else if meta.type-of($collection) == 'list' {
+    $items: null;
+    $output: null;
+    $property: null;
+    $use-css-vars: null;
     $vars-key: '';
-
+    // Process each item in the list
+    @each $list in $collection {
+      // Extract values from the current collection
+      $items: map.get($list, "items");
+      @debug 'items:' $items;
+      $output: map.get($list, "output");
+      @debug 'output:' $output;
+      $property: map.get($list, "property");
+      @debug 'property:' $property;
+      $use-css-vars: map.get($list, "css-vars");
+      @debug 'css-var:' $use-css-vars;
+    }
+  
     $selector: _n.get-namespace('classes') + $selector;
 
-    /// If this collection is using CSS vars, the items come from the
-    /// 'css-vars' map in $gorko-config
     @if $use-css-vars {
       $vars: map-get(_c.$gorko-config, 'css-vars');
-      $vars-key: map-get($collection, 'items');
+      $vars-key: map-get($list, 'items');
       $items: map-get($vars, $vars-key);
-    }
+    }      
     
     /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
     @if $property and $items {
