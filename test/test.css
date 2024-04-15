@@ -38,39 +38,6 @@
 }
 
 /* GORKO: auto-generated utility classes start */
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 .my-prefix-bg-c-dark {
   background-color: var(--my-prefix-color-dark);
 }
@@ -83,17 +50,6 @@
   background-color: var(--my-prefix-color-blush);
 }
 
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 .my-prefix-color-dark {
   color: var(--my-prefix-color-dark);
 }
@@ -106,17 +62,6 @@
   color: var(--my-prefix-color-blush);
 }
 
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 .my-prefix-box-block {
   display: block;
 }
@@ -133,17 +78,6 @@
   display: inherit;
 }
 
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 .my-prefix-font-system-ui {
   font-family: var(--my-prefix-font-system-ui);
 }
@@ -212,17 +146,6 @@
   font-family: var(--my-prefix-font-mono);
 }
 
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 .my-prefix-gap-top-300 {
   margin-top: 0.8rem;
 }
@@ -247,17 +170,6 @@
   margin-top: 3rem;
 }
 
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 .my-prefix-gap-right-300 {
   margin-right: 0.8rem;
 }
@@ -282,17 +194,6 @@
   margin-right: 3rem;
 }
 
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 .my-prefix-gap-bottom-300 {
   margin-bottom: 0.8rem;
 }
@@ -317,17 +218,6 @@
   margin-bottom: 3rem;
 }
 
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 .my-prefix-gap-left-300 {
   margin-left: 0.8rem;
 }
@@ -352,17 +242,6 @@
   margin-left: 3rem;
 }
 
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 .my-prefix-pad-top-300 {
   padding-top: 0.8rem;
 }
@@ -387,17 +266,6 @@
   padding-top: 3rem;
 }
 
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 .my-prefix-pad-right-300 {
   padding-right: 0.8rem;
 }
@@ -422,17 +290,6 @@
   padding-right: 3rem;
 }
 
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 .my-prefix-pad-bottom-300 {
   padding-bottom: 0.8rem;
 }
@@ -457,17 +314,6 @@
   padding-bottom: 3rem;
 }
 
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 .my-prefix-pad-left-300 {
   padding-left: 0.8rem;
 }
@@ -492,17 +338,6 @@
   padding-left: 3rem;
 }
 
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 .my-prefix-stack-300 {
   z-index: 0;
 }
@@ -523,17 +358,6 @@
   z-index: 40;
 }
 
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 .my-prefix-text-300 {
   font-size: 0.8rem;
 }
@@ -558,17 +382,6 @@
   font-size: 3rem;
 }
 
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 .my-prefix-weight-light {
   font-weight: 300;
 }
@@ -581,17 +394,6 @@
   font-weight: 700;
 }
 
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 .my-prefix-width-full {
   width: 100%;
 }
@@ -608,73 +410,7 @@
   width: 33.3333333333%;
 }
 
-/*$selector: _n.get-namespace('classes') + $selector;
-
-@each $key in $collection {
-  $items: map-get($collection, 'items');
-  $output: map-get($collection, 'output');
-  $property: map-get($collection, 'property');
-  $use-css-vars: map-get($collection, 'css-vars');
-  $vars-key: '';
-
-  $selector: _n.get-namespace('classes') + $selector;
-} */
 @media (min-width: 36em) {
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
   .sm\:my-prefix-box-block {
     display: block;
   }
@@ -687,127 +423,6 @@
   .sm\:my-prefix-box-show {
     display: inherit;
   }
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
   .sm\:my-prefix-text-300 {
     font-size: 0.8rem;
   }
@@ -826,28 +441,6 @@
   .sm\:my-prefix-text-900 {
     font-size: 3rem;
   }
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
   .sm\:my-prefix-width-full {
     width: 100%;
   }
@@ -860,74 +453,8 @@
   .sm\:my-prefix-width-third {
     width: 33.3333333333%;
   }
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
 }
 @media (min-width: 48em) {
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
   .md\:my-prefix-box-block {
     display: block;
   }
@@ -940,127 +467,6 @@
   .md\:my-prefix-box-show {
     display: inherit;
   }
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
   .md\:my-prefix-text-300 {
     font-size: 0.8rem;
   }
@@ -1079,28 +485,6 @@
   .md\:my-prefix-text-900 {
     font-size: 3rem;
   }
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
   .md\:my-prefix-width-full {
     width: 100%;
   }
@@ -1113,74 +497,8 @@
   .md\:my-prefix-width-third {
     width: 33.3333333333%;
   }
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
 }
 @media (min-width: 62em) {
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
   .lg\:my-prefix-box-block {
     display: block;
   }
@@ -1193,127 +511,6 @@
   .lg\:my-prefix-box-show {
     display: inherit;
   }
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
   .lg\:my-prefix-text-300 {
     font-size: 0.8rem;
   }
@@ -1332,28 +529,6 @@
   .lg\:my-prefix-text-900 {
     font-size: 3rem;
   }
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
   .lg\:my-prefix-width-full {
     width: 100%;
   }
@@ -1366,17 +541,6 @@
   .lg\:my-prefix-width-third {
     width: 33.3333333333%;
   }
-  /*$selector: _n.get-namespace('classes') + $selector;
-
-  @each $key in $collection {
-    $items: map-get($collection, 'items');
-    $output: map-get($collection, 'output');
-    $property: map-get($collection, 'property');
-    $use-css-vars: map-get($collection, 'css-vars');
-    $vars-key: '';
-
-    $selector: _n.get-namespace('classes') + $selector;
-  } */
 }
 /* GORKO: auto-generated utility classes end */
 body {
