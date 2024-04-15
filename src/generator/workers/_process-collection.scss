@@ -15,8 +15,6 @@
 @use '../../config' as _c;
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
-  $processed-properties: (); // Define a list to store processed properties
-
   // Check if the $collection is a map 
   @if meta.type-of($collection) == 'map' {
     $items: map-get($collection, 'items');
@@ -36,7 +34,7 @@
     }
   
     /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
-    @if ($property and $items and index($processed-properties, $property) == null) {
+    @if ($property and $items) {
       @if ($output == 'responsive') {
         @include _css.generate-css(
           #{$prefix + $selector},
@@ -58,12 +56,25 @@
           );
         }
       }
-      $processed-properties: append($processed-properties, $property); // Add the processed property to the list
     }
   // Check if the $collection is a list of maps
   } @else if meta.type-of($collection) == 'list' {
+    // Remove duplicate maps from the list
+    $unique-collection: ();
     @each $map in $collection {
-      // For each $map in the $collection process it through the process-collection mixin 
+      $exists: false;
+      @each $unique-map in $unique-collection {
+        @if $map == $unique-map {
+          $exists: true;
+        }
+      }
+      @if not $exists {
+        $unique-collection: append($unique-collection, $map);
+      }
+    }
+    
+    // Process each unique map in the list
+    @each $map in $unique-collection {
       @include process-collection($map, $prefix, $selector, $is-breakpoint);
     }
   } @else {
