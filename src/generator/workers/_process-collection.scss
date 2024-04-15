@@ -31,7 +31,10 @@
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
   @if type-of($collection) == 'list' {
-          
+    $items: null;
+    $output: null;
+    $property: null;
+    $use-css-vars: null;
     // Process each item in the list
     @each $list in $collection {
       // Extract values from the current collection
@@ -44,38 +47,37 @@
       $use-css-vars: map.get($list, "css-vars");
       @debug 'css-var:' $use-css-vars;
       $vars-key: '';
+    }
+  }
+  $selector: _n.get-namespace('classes') + $selector;
 
-      $selector: _n.get-namespace('classes') + $selector;
-
-      @if $use-css-vars {
-        $vars: map-get(_c.$gorko-config, 'css-vars');
-        $vars-key: map-get($list, 'items');
-        $items: map-get($vars, $vars-key);
-      }
+  @if $use-css-vars {
+    $vars: map-get(_c.$gorko-config, 'css-vars');
+    $vars-key: map-get($list, 'items');
+    $items: map-get($vars, $vars-key);
+  }    
     
-      /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
-      @if $property and $items {
-        @if $output == 'responsive' {
-          @include _css.generate-css(
-            #{$prefix + $selector},
-            $property,
-            $items,
-            $use-css-vars,
-            $vars-key
-          );
-        }
+  /// It'll only run if $items and $property aren't null. This means it'll ignore the breakpoints and design tokens, for example.
+  @if $property and $items {
+    @if $output == 'responsive' {
+      @include _css.generate-css(
+        #{$prefix + $selector},
+        $property,
+        $items,
+        $use-css-vars,
+        $vars-key
+      );
+    }
 
-        @if $output == 'standard' {
-          @if not $is-breakpoint {
-            @include _css.generate-css(
-              #{$prefix + $selector},
-              $property,
-              $items,
-              $use-css-vars,
-              $vars-key
-            );
-          }
-        }
+    @if $output == 'standard' {
+      @if not $is-breakpoint {
+        @include _css.generate-css(
+          #{$prefix + $selector},
+          $property,
+          $items,
+          $use-css-vars,
+          $vars-key
+        );
       }
     }
   } @else if type-of($collection) == 'map' {
