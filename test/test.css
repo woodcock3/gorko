@@ -38,495 +38,768 @@
 }
 
 /* GORKO: auto-generated utility classes start */
-.my-prefix-color-dark {
+.my-prefix--dark {
   color: var(--my-prefix-color-dark);
 }
 
-.my-prefix-color-light {
+.my-prefix--light {
   color: var(--my-prefix-color-light);
 }
 
-.my-prefix-color-blush {
+.my-prefix--blush {
   color: var(--my-prefix-color-blush);
 }
 
-.my-prefix-box-block {
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+  background-clip: border-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+  background-clip: content-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+  background-clip: padding-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+  background-clip: border-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+  background-clip: content-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+  background-clip: padding-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+  background-clip: border-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+  background-clip: content-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+  background-clip: padding-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+  background-clip: border-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+  background-clip: content-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+  background-clip: padding-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+  background-clip: border-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+  background-clip: content-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+  background-clip: padding-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+  background-clip: border-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+  background-clip: content-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+  background-clip: padding-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+  background-clip: border-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+  background-clip: content-box;
+}
+
+.my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+  background-clip: padding-box;
+}
+
+.my-prefix--block {
   display: block;
 }
 
-.my-prefix-box-flex {
+.my-prefix--flex {
   display: flex;
 }
 
-.my-prefix-box-hide {
+.my-prefix--hide {
   display: none;
 }
 
-.my-prefix-box-show {
+.my-prefix--show {
   display: inherit;
 }
 
-.my-prefix-font-system-ui {
+.my-prefix--system-ui {
   font-family: var(--my-prefix-font-system-ui);
 }
 
-.my-prefix-font-transitional {
+.my-prefix--transitional {
   font-family: var(--my-prefix-font-transitional);
 }
 
-.my-prefix-font-old-style {
+.my-prefix--old-style {
   font-family: var(--my-prefix-font-old-style);
 }
 
-.my-prefix-font-humanist {
+.my-prefix--humanist {
   font-family: var(--my-prefix-font-humanist);
 }
 
-.my-prefix-font-geometric-humanist {
+.my-prefix--geometric-humanist {
   font-family: var(--my-prefix-font-geometric-humanist);
 }
 
-.my-prefix-font-classical-humanist {
+.my-prefix--classical-humanist {
   font-family: var(--my-prefix-font-classical-humanist);
 }
 
-.my-prefix-font-neo-grotesque {
+.my-prefix--neo-grotesque {
   font-family: var(--my-prefix-font-neo-grotesque);
 }
 
-.my-prefix-font-monospace-slab-serif {
+.my-prefix--monospace-slab-serif {
   font-family: var(--my-prefix-font-monospace-slab-serif);
 }
 
-.my-prefix-font-monospace-code {
+.my-prefix--monospace-code {
   font-family: var(--my-prefix-font-monospace-code);
 }
 
-.my-prefix-font-industrial {
+.my-prefix--industrial {
   font-family: var(--my-prefix-font-industrial);
 }
 
-.my-prefix-font-rounded-sans {
+.my-prefix--rounded-sans {
   font-family: var(--my-prefix-font-rounded-sans);
 }
 
-.my-prefix-font-slab-serif {
+.my-prefix--slab-serif {
   font-family: var(--my-prefix-font-slab-serif);
 }
 
-.my-prefix-font-antique {
+.my-prefix--antique {
   font-family: var(--my-prefix-font-antique);
 }
 
-.my-prefix-font-didone {
+.my-prefix--didone {
   font-family: var(--my-prefix-font-didone);
 }
 
-.my-prefix-font-handwritten {
+.my-prefix--handwritten {
   font-family: var(--my-prefix-font-handwritten);
 }
 
-.my-prefix-font-base {
+.my-prefix--base {
   font-family: var(--my-prefix-font-base);
 }
 
-.my-prefix-font-mono {
+.my-prefix--mono {
   font-family: var(--my-prefix-font-mono);
 }
 
-.my-prefix-gap-top-300 {
+.my-prefix--300 {
   margin-top: 0.8rem;
 }
 
-.my-prefix-gap-top-400 {
+.my-prefix--400 {
   margin-top: 1rem;
 }
 
-.my-prefix-gap-top-500 {
+.my-prefix--500 {
   margin-top: 1.25rem;
 }
 
-.my-prefix-gap-top-600 {
+.my-prefix--600 {
   margin-top: 1.6rem;
 }
 
-.my-prefix-gap-top-700 {
+.my-prefix--700 {
   margin-top: 2rem;
 }
 
-.my-prefix-gap-top-900 {
+.my-prefix--900 {
   margin-top: 3rem;
 }
 
-.my-prefix-gap-right-300 {
+.my-prefix--300 {
   margin-right: 0.8rem;
 }
 
-.my-prefix-gap-right-400 {
+.my-prefix--400 {
   margin-right: 1rem;
 }
 
-.my-prefix-gap-right-500 {
+.my-prefix--500 {
   margin-right: 1.25rem;
 }
 
-.my-prefix-gap-right-600 {
+.my-prefix--600 {
   margin-right: 1.6rem;
 }
 
-.my-prefix-gap-right-700 {
+.my-prefix--700 {
   margin-right: 2rem;
 }
 
-.my-prefix-gap-right-900 {
+.my-prefix--900 {
   margin-right: 3rem;
 }
 
-.my-prefix-gap-bottom-300 {
+.my-prefix--300 {
   margin-bottom: 0.8rem;
 }
 
-.my-prefix-gap-bottom-400 {
+.my-prefix--400 {
   margin-bottom: 1rem;
 }
 
-.my-prefix-gap-bottom-500 {
+.my-prefix--500 {
   margin-bottom: 1.25rem;
 }
 
-.my-prefix-gap-bottom-600 {
+.my-prefix--600 {
   margin-bottom: 1.6rem;
 }
 
-.my-prefix-gap-bottom-700 {
+.my-prefix--700 {
   margin-bottom: 2rem;
 }
 
-.my-prefix-gap-bottom-900 {
+.my-prefix--900 {
   margin-bottom: 3rem;
 }
 
-.my-prefix-gap-left-300 {
+.my-prefix--300 {
   margin-left: 0.8rem;
 }
 
-.my-prefix-gap-left-400 {
+.my-prefix--400 {
   margin-left: 1rem;
 }
 
-.my-prefix-gap-left-500 {
+.my-prefix--500 {
   margin-left: 1.25rem;
 }
 
-.my-prefix-gap-left-600 {
+.my-prefix--600 {
   margin-left: 1.6rem;
 }
 
-.my-prefix-gap-left-700 {
+.my-prefix--700 {
   margin-left: 2rem;
 }
 
-.my-prefix-gap-left-900 {
+.my-prefix--900 {
   margin-left: 3rem;
 }
 
-.my-prefix-pad-top-300 {
+.my-prefix--300 {
   padding-top: 0.8rem;
 }
 
-.my-prefix-pad-top-400 {
+.my-prefix--400 {
   padding-top: 1rem;
 }
 
-.my-prefix-pad-top-500 {
+.my-prefix--500 {
   padding-top: 1.25rem;
 }
 
-.my-prefix-pad-top-600 {
+.my-prefix--600 {
   padding-top: 1.6rem;
 }
 
-.my-prefix-pad-top-700 {
+.my-prefix--700 {
   padding-top: 2rem;
 }
 
-.my-prefix-pad-top-900 {
+.my-prefix--900 {
   padding-top: 3rem;
 }
 
-.my-prefix-pad-right-300 {
+.my-prefix--300 {
   padding-right: 0.8rem;
 }
 
-.my-prefix-pad-right-400 {
+.my-prefix--400 {
   padding-right: 1rem;
 }
 
-.my-prefix-pad-right-500 {
+.my-prefix--500 {
   padding-right: 1.25rem;
 }
 
-.my-prefix-pad-right-600 {
+.my-prefix--600 {
   padding-right: 1.6rem;
 }
 
-.my-prefix-pad-right-700 {
+.my-prefix--700 {
   padding-right: 2rem;
 }
 
-.my-prefix-pad-right-900 {
+.my-prefix--900 {
   padding-right: 3rem;
 }
 
-.my-prefix-pad-bottom-300 {
+.my-prefix--300 {
   padding-bottom: 0.8rem;
 }
 
-.my-prefix-pad-bottom-400 {
+.my-prefix--400 {
   padding-bottom: 1rem;
 }
 
-.my-prefix-pad-bottom-500 {
+.my-prefix--500 {
   padding-bottom: 1.25rem;
 }
 
-.my-prefix-pad-bottom-600 {
+.my-prefix--600 {
   padding-bottom: 1.6rem;
 }
 
-.my-prefix-pad-bottom-700 {
+.my-prefix--700 {
   padding-bottom: 2rem;
 }
 
-.my-prefix-pad-bottom-900 {
+.my-prefix--900 {
   padding-bottom: 3rem;
 }
 
-.my-prefix-pad-left-300 {
+.my-prefix--300 {
   padding-left: 0.8rem;
 }
 
-.my-prefix-pad-left-400 {
+.my-prefix--400 {
   padding-left: 1rem;
 }
 
-.my-prefix-pad-left-500 {
+.my-prefix--500 {
   padding-left: 1.25rem;
 }
 
-.my-prefix-pad-left-600 {
+.my-prefix--600 {
   padding-left: 1.6rem;
 }
 
-.my-prefix-pad-left-700 {
+.my-prefix--700 {
   padding-left: 2rem;
 }
 
-.my-prefix-pad-left-900 {
+.my-prefix--900 {
   padding-left: 3rem;
 }
 
-.my-prefix-stack-300 {
+.my-prefix--300 {
   z-index: 0;
 }
 
-.my-prefix-stack-400 {
+.my-prefix--400 {
   z-index: 10;
 }
 
-.my-prefix-stack-500 {
+.my-prefix--500 {
   z-index: 20;
 }
 
-.my-prefix-stack-600 {
+.my-prefix--600 {
   z-index: 30;
 }
 
-.my-prefix-stack-700 {
+.my-prefix--700 {
   z-index: 40;
 }
 
-.my-prefix-text-300 {
+.my-prefix--300 {
   font-size: 0.8rem;
 }
 
-.my-prefix-text-400 {
+.my-prefix--400 {
   font-size: 1rem;
 }
 
-.my-prefix-text-500 {
+.my-prefix--500 {
   font-size: 1.25rem;
 }
 
-.my-prefix-text-600 {
+.my-prefix--600 {
   font-size: 1.6rem;
 }
 
-.my-prefix-text-700 {
+.my-prefix--700 {
   font-size: 2rem;
 }
 
-.my-prefix-text-900 {
+.my-prefix--900 {
   font-size: 3rem;
 }
 
-.my-prefix-weight-light {
+.my-prefix--light {
   font-weight: 300;
 }
 
-.my-prefix-weight-regular {
+.my-prefix--regular {
   font-weight: 400;
 }
 
-.my-prefix-weight-bold {
+.my-prefix--bold {
   font-weight: 700;
 }
 
-.my-prefix-width-full {
+.my-prefix--full {
   width: 100%;
 }
 
-.my-prefix-width-half {
+.my-prefix--half {
   width: 50%;
 }
 
-.my-prefix-width-quarter {
+.my-prefix--quarter {
   width: 25%;
 }
 
-.my-prefix-width-third {
+.my-prefix--third {
   width: 33.3333333333%;
 }
 
 @media (min-width: 36em) {
-  .sm\:my-prefix-box-block {
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .sm\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .sm\:my-prefix--block {
     display: block;
   }
-  .sm\:my-prefix-box-flex {
+  .sm\:my-prefix--flex {
     display: flex;
   }
-  .sm\:my-prefix-box-hide {
+  .sm\:my-prefix--hide {
     display: none;
   }
-  .sm\:my-prefix-box-show {
+  .sm\:my-prefix--show {
     display: inherit;
   }
-  .sm\:my-prefix-text-300 {
+  .sm\:my-prefix--300 {
     font-size: 0.8rem;
   }
-  .sm\:my-prefix-text-400 {
+  .sm\:my-prefix--400 {
     font-size: 1rem;
   }
-  .sm\:my-prefix-text-500 {
+  .sm\:my-prefix--500 {
     font-size: 1.25rem;
   }
-  .sm\:my-prefix-text-600 {
+  .sm\:my-prefix--600 {
     font-size: 1.6rem;
   }
-  .sm\:my-prefix-text-700 {
+  .sm\:my-prefix--700 {
     font-size: 2rem;
   }
-  .sm\:my-prefix-text-900 {
+  .sm\:my-prefix--900 {
     font-size: 3rem;
   }
-  .sm\:my-prefix-width-full {
+  .sm\:my-prefix--full {
     width: 100%;
   }
-  .sm\:my-prefix-width-half {
+  .sm\:my-prefix--half {
     width: 50%;
   }
-  .sm\:my-prefix-width-quarter {
+  .sm\:my-prefix--quarter {
     width: 25%;
   }
-  .sm\:my-prefix-width-third {
+  .sm\:my-prefix--third {
     width: 33.3333333333%;
   }
 }
 @media (min-width: 48em) {
-  .md\:my-prefix-box-block {
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .md\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .md\:my-prefix--block {
     display: block;
   }
-  .md\:my-prefix-box-flex {
+  .md\:my-prefix--flex {
     display: flex;
   }
-  .md\:my-prefix-box-hide {
+  .md\:my-prefix--hide {
     display: none;
   }
-  .md\:my-prefix-box-show {
+  .md\:my-prefix--show {
     display: inherit;
   }
-  .md\:my-prefix-text-300 {
+  .md\:my-prefix--300 {
     font-size: 0.8rem;
   }
-  .md\:my-prefix-text-400 {
+  .md\:my-prefix--400 {
     font-size: 1rem;
   }
-  .md\:my-prefix-text-500 {
+  .md\:my-prefix--500 {
     font-size: 1.25rem;
   }
-  .md\:my-prefix-text-600 {
+  .md\:my-prefix--600 {
     font-size: 1.6rem;
   }
-  .md\:my-prefix-text-700 {
+  .md\:my-prefix--700 {
     font-size: 2rem;
   }
-  .md\:my-prefix-text-900 {
+  .md\:my-prefix--900 {
     font-size: 3rem;
   }
-  .md\:my-prefix-width-full {
+  .md\:my-prefix--full {
     width: 100%;
   }
-  .md\:my-prefix-width-half {
+  .md\:my-prefix--half {
     width: 50%;
   }
-  .md\:my-prefix-width-quarter {
+  .md\:my-prefix--quarter {
     width: 25%;
   }
-  .md\:my-prefix-width-third {
+  .md\:my-prefix--third {
     width: 33.3333333333%;
   }
 }
 @media (min-width: 62em) {
-  .lg\:my-prefix-box-block {
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--border {
+    background-clip: border-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-content {
+    background-clip: content-box;
+  }
+  .lg\:my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix-my-prefix--clip-padding {
+    background-clip: padding-box;
+  }
+  .lg\:my-prefix--block {
     display: block;
   }
-  .lg\:my-prefix-box-flex {
+  .lg\:my-prefix--flex {
     display: flex;
   }
-  .lg\:my-prefix-box-hide {
+  .lg\:my-prefix--hide {
     display: none;
   }
-  .lg\:my-prefix-box-show {
+  .lg\:my-prefix--show {
     display: inherit;
   }
-  .lg\:my-prefix-text-300 {
+  .lg\:my-prefix--300 {
     font-size: 0.8rem;
   }
-  .lg\:my-prefix-text-400 {
+  .lg\:my-prefix--400 {
     font-size: 1rem;
   }
-  .lg\:my-prefix-text-500 {
+  .lg\:my-prefix--500 {
     font-size: 1.25rem;
   }
-  .lg\:my-prefix-text-600 {
+  .lg\:my-prefix--600 {
     font-size: 1.6rem;
   }
-  .lg\:my-prefix-text-700 {
+  .lg\:my-prefix--700 {
     font-size: 2rem;
   }
-  .lg\:my-prefix-text-900 {
+  .lg\:my-prefix--900 {
     font-size: 3rem;
   }
-  .lg\:my-prefix-width-full {
+  .lg\:my-prefix--full {
     width: 100%;
   }
-  .lg\:my-prefix-width-half {
+  .lg\:my-prefix--half {
     width: 50%;
   }
-  .lg\:my-prefix-width-quarter {
+  .lg\:my-prefix--quarter {
     width: 25%;
   }
-  .lg\:my-prefix-width-third {
+  .lg\:my-prefix--third {
     width: 33.3333333333%;
   }
 }
