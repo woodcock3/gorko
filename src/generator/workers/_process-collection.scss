@@ -49,7 +49,7 @@
 
       @if $use-css-vars {
         $vars: map-get(_c.$gorko-config, 'css-vars');
-        $vars-key: map-get($collection, 'items');
+        $vars-key: map-get($items, 'items');
         $items: map-get($vars, $vars-key);
       }
     
