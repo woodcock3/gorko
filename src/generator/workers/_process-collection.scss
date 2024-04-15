@@ -15,6 +15,15 @@
 @use '../../config' as _c;
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
+  @if meta.type-of($collection) == 'list' {
+    // Convert list to map
+    $converted-collection: ();
+    @each $item in $collection {
+      $converted-collection: map-merge($converted-collection, $item);
+    }
+    $collection: $converted-collection;
+  }
+  
   // Check if the $collection is a map 
   @if meta.type-of($collection) == 'map' {
     $items: map-get($collection, 'items');
@@ -57,7 +66,11 @@
         }
       }
     }
-  // Check if the $collection is a list of maps
+  }
+}
+
+
+  /* Check if the $collection is a list of maps
   } @else if meta.type-of($collection) == 'list' {
     @each $map in $collection {
       // For each $map in the $collection process it through the process-collection mixin 
@@ -66,4 +79,4 @@
   } @else {
     @error "Invalid collection type: #{$collection}. Expected map or list of maps.";
   }
-}
+} */
