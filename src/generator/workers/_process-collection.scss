@@ -16,6 +16,18 @@
 @use 'get-namespace' as _n;
 @use '../../config' as _c;
 
+/// NTH OR NULL FUNCTION
+/// Safely retrieve an element from a list at a specified index or return null if out of bounds.
+/// This is need because sass $index start at 1 and throws error if zero, empty or null
+///
+/// @param {list} $list - The list from which to retrieve the element.
+/// @param {number} $index - The index of the element to retrieve.
+/// @return {any} - The element at the specified index or null if out of bounds.
+
+@function nth-or-null($list, $index) {
+  @return if(length($list) >= $index, nth($list, $index), null);
+}
+
 
 @mixin process-collection($collection, $prefix, $selector, $is-breakpoint) {
   @debug $collection;
@@ -25,10 +37,10 @@
       // Check if the item is a valid map
       @if type-of(nth($map, 1)) == 'list' {
         $converted-map: (); // Initialize an empty map
-        @for $i from 1 through length($map) { // Iterate through the list directly
-          $key: nth($map, $i); // Get the key
-          $value: nth($map, $i + 1); // Get the value (next element in the list)
-          $i: $i + 1; // Increment the index to skip the value in the next iteration
+        @for $i from 1 through length($map) { // Iterate through the list
+          $key: nth-or-null($map, $i); // Get the key
+          $value: nthor-null($map, $i); // Get the value 
+          
           $converted-map: map.merge($converted-map, ($key: $value)); // Add key-value pair to the map
         }
         @include process-collection($converted-map, $prefix, $selector, $is-breakpoint);
