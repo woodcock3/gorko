@@ -12,9 +12,9 @@
 
 @mixin cycle($prefix, $is-breakpoint) {
   @each $selector, $props in _c.$gorko-config {
-    @debug $selector;
-    @debug $props;
     @if (meta.type-of($props) == 'map') {
+      @debug $selector;
+      @debug $props;
       @include _p.process-collection(
         $props,
         $prefix,
