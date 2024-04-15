@@ -25,12 +25,10 @@
       // Check if the item is a valid map
       @if type-of(nth($map, 1)) == 'list' {
         $converted-map: (); // Initialize an empty map
-        $map-length: length($map);
-        @for $i from 1 through $map-length / 2 {
-          $key-index: ($i * 2) - 1; // Calculate the index of the key
-          $value-index: $i * 2; // Calculate the index of the value
-          $key: nth($map, $key-index); // Get the key
-          $value: nth($map, $value-index); // Get the value
+        @for $i from 1 through length($map) { // Iterate through the list directly
+          $key: nth($map, $i); // Get the key
+          $value: nth($map, $i + 1); // Get the value (next element in the list)
+          $i: $i + 1; // Increment the index to skip the value in the next iteration
           $converted-map: map.merge($converted-map, ($key: $value)); // Add key-value pair to the map
         }
         @include process-collection($converted-map, $prefix, $selector, $is-breakpoint);
