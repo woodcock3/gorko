@@ -33,6 +33,12 @@
   @if type-of($collection) == 'list' {
     // Process each item in the list
       @debug 'collection:' $collection;
+
+      $items: map-get($collection, 'items');
+      $output: map-get($collection, 'output');
+      $property: map-get($collection, 'property');
+      $use-css-vars: map-get($collection, 'css-vars');
+    
       $converted-map: (); // Initialize an empty map
       @for $i from 1 through length($collection) { // Iterate through the list
         $key: nth-or-null($collection, $i); // Get the key
