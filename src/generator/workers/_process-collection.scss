@@ -59,22 +59,8 @@
     }
   // Check if the $collection is a list of maps
   } @else if meta.type-of($collection) == 'list' {
-    // Remove duplicate maps from the list
-    $unique-collection: ();
     @each $map in $collection {
-      $exists: false;
-      @each $unique-map in $unique-collection {
-        @if $map == $unique-map {
-          $exists: true;
-        }
-      }
-      @if not $exists {
-        $unique-collection: append($unique-collection, $map);
-      }
-    }
-    
-    // Process each unique map in the list
-    @each $map in $unique-collection {
+      // For each $map in the $collection process it through the process-collection mixin 
       @include process-collection($map, $prefix, $selector, $is-breakpoint);
     }
   } @else {
