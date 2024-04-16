@@ -7,7 +7,7 @@
   ///
   $gorko-config: (
     'namespace': (
-      'prefix': 'my-prefix-',
+      'prefix': '',
       'classes': true,
       'css-vars': true
     ),
@@ -333,9 +333,7 @@
       'property': 'width'
     ),
     'breakpoints': (
-      'sm': '(min-width: 36em)',
-      'md': '(min-width: 48em)',
-      'lg': '(min-width: 62em)'
+      'lg': 'only screen and (min-width: 48em)'
     )
   )
 );
