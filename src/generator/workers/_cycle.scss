@@ -22,15 +22,13 @@
       );
     }
     // Loop over the gorko-config where the $selector is the key to a list of maps
-    @else if (meta.type-of($props) == 'list') {
-      @each $prop in $props { 
-        @include _p.process-collection(
-          $props,
-          $prefix,
-          $selector,
-          $is-breakpoint
-        );
-      }
+    @else if (meta.type-of($props) == 'list') { 
+      @include _p.process-collection(
+        $props,
+        $prefix,
+        $selector,
+        $is-breakpoint
+      );
     }
   }
 }
