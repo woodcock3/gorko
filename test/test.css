@@ -86,11 +86,11 @@
   background-position: left;
 }
 
-.my-prefix-bg-left bottom {
+.my-prefix-bg-left-bottom {
   background-position: left bottom;
 }
 
-.my-prefix-bg-left top {
+.my-prefix-bg-left-top {
   background-position: left top;
 }
 
@@ -98,11 +98,11 @@
   background-position: right;
 }
 
-.my-prefix-bg-right bottom {
+.my-prefix-bg-right-bottom {
   background-position: right bottom;
 }
 
-.my-prefix-bg-right top {
+.my-prefix-bg-right-top {
   background-position: right top;
 }
 
@@ -160,6 +160,122 @@
 
 .my-prefix-bg-clip-padding {
   background-clip: padding-box;
+}
+
+.my-prefix-border-solid {
+  border-style: solid;
+}
+
+.my-prefix-border-dashed {
+  border-style: dashed;
+}
+
+.my-prefix-border-dotted {
+  border-style: dotted;
+}
+
+.my-prefix-border-double {
+  border-style: double;
+}
+
+.my-prefix-border-none {
+  border-style: none;
+}
+
+.my-prefix-border-bs-none {
+  border-block-start: none;
+}
+
+.my-prefix-border-be-none {
+  border-block-end: none;
+}
+
+.my-prefix-border-is-none {
+  border-inline-start: none;
+}
+
+.my-prefix-border-ie-none {
+  border-inline-end: none;
+}
+
+.my-prefix-border-0 {
+  border-width: 0px;
+}
+
+.my-prefix-border-1 {
+  border-width: 1px;
+}
+
+.my-prefix-border-2 {
+  border-width: 2px;
+}
+
+.my-prefix-border-3 {
+  border-width: 4px;
+}
+
+.my-prefix-border-bs0 {
+  border-block-start-width: 0px;
+}
+
+.my-prefix-border-bs1 {
+  border-block-start-width: 1px;
+}
+
+.my-prefix-border-bs2 {
+  border-block-start-width: 2px;
+}
+
+.my-prefix-border-bs3 {
+  border-block-start-width: 4px;
+}
+
+.my-prefix-border-be0 {
+  border-block-end-width: 0px;
+}
+
+.my-prefix-border-be1 {
+  border-block-end-width: 1px;
+}
+
+.my-prefix-border-be2 {
+  border-block-end-width: 2px;
+}
+
+.my-prefix-border-be3 {
+  border-block-end-width: 4px;
+}
+
+.my-prefix-border-is0 {
+  border-inline-start-width: 0px;
+}
+
+.my-prefix-border-is1 {
+  border-inline-start-width: 1px;
+}
+
+.my-prefix-border-is2 {
+  border-inline-start-width: 2px;
+}
+
+.my-prefix-border-is3 {
+  border-inline-start-width: 4px;
+}
+
+.my-prefix-border-ie0 {
+  border-inline-end-width: 0px;
+}
+
+.my-prefix-border-ie1 {
+  border-inline-end-width: 1px;
+}
+
+.my-prefix-border-ie2 {
+  border-inline-end-width: 2px;
+}
+
+.my-prefix-border-ie3 {
+  border-inline-end-width: 4px;
 }
 
 .my-prefix-box-block {
@@ -529,19 +645,19 @@
   .sm\:my-prefix-bg-left {
     background-position: left;
   }
-  .sm\:my-prefix-bg-left bottom {
+  .sm\:my-prefix-bg-left-bottom {
     background-position: left bottom;
   }
-  .sm\:my-prefix-bg-left top {
+  .sm\:my-prefix-bg-left-top {
     background-position: left top;
   }
   .sm\:my-prefix-bg-right {
     background-position: right;
   }
-  .sm\:my-prefix-bg-right bottom {
+  .sm\:my-prefix-bg-right-bottom {
     background-position: right bottom;
   }
-  .sm\:my-prefix-bg-right top {
+  .sm\:my-prefix-bg-right-top {
     background-position: right top;
   }
   .sm\:my-prefix-bg-top {
@@ -585,6 +701,93 @@
   }
   .sm\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
+  }
+  .sm\:my-prefix-border-solid {
+    border-style: solid;
+  }
+  .sm\:my-prefix-border-dashed {
+    border-style: dashed;
+  }
+  .sm\:my-prefix-border-dotted {
+    border-style: dotted;
+  }
+  .sm\:my-prefix-border-double {
+    border-style: double;
+  }
+  .sm\:my-prefix-border-none {
+    border-style: none;
+  }
+  .sm\:my-prefix-border-bs-none {
+    border-block-start: none;
+  }
+  .sm\:my-prefix-border-be-none {
+    border-block-end: none;
+  }
+  .sm\:my-prefix-border-is-none {
+    border-inline-start: none;
+  }
+  .sm\:my-prefix-border-ie-none {
+    border-inline-end: none;
+  }
+  .sm\:my-prefix-border-0 {
+    border-width: 0px;
+  }
+  .sm\:my-prefix-border-1 {
+    border-width: 1px;
+  }
+  .sm\:my-prefix-border-2 {
+    border-width: 2px;
+  }
+  .sm\:my-prefix-border-3 {
+    border-width: 4px;
+  }
+  .sm\:my-prefix-border-bs0 {
+    border-block-start-width: 0px;
+  }
+  .sm\:my-prefix-border-bs1 {
+    border-block-start-width: 1px;
+  }
+  .sm\:my-prefix-border-bs2 {
+    border-block-start-width: 2px;
+  }
+  .sm\:my-prefix-border-bs3 {
+    border-block-start-width: 4px;
+  }
+  .sm\:my-prefix-border-be0 {
+    border-block-end-width: 0px;
+  }
+  .sm\:my-prefix-border-be1 {
+    border-block-end-width: 1px;
+  }
+  .sm\:my-prefix-border-be2 {
+    border-block-end-width: 2px;
+  }
+  .sm\:my-prefix-border-be3 {
+    border-block-end-width: 4px;
+  }
+  .sm\:my-prefix-border-is0 {
+    border-inline-start-width: 0px;
+  }
+  .sm\:my-prefix-border-is1 {
+    border-inline-start-width: 1px;
+  }
+  .sm\:my-prefix-border-is2 {
+    border-inline-start-width: 2px;
+  }
+  .sm\:my-prefix-border-is3 {
+    border-inline-start-width: 4px;
+  }
+  .sm\:my-prefix-border-ie0 {
+    border-inline-end-width: 0px;
+  }
+  .sm\:my-prefix-border-ie1 {
+    border-inline-end-width: 1px;
+  }
+  .sm\:my-prefix-border-ie2 {
+    border-inline-end-width: 2px;
+  }
+  .sm\:my-prefix-border-ie3 {
+    border-inline-end-width: 4px;
   }
   .sm\:my-prefix-box-block {
     display: block;
@@ -648,19 +851,19 @@
   .md\:my-prefix-bg-left {
     background-position: left;
   }
-  .md\:my-prefix-bg-left bottom {
+  .md\:my-prefix-bg-left-bottom {
     background-position: left bottom;
   }
-  .md\:my-prefix-bg-left top {
+  .md\:my-prefix-bg-left-top {
     background-position: left top;
   }
   .md\:my-prefix-bg-right {
     background-position: right;
   }
-  .md\:my-prefix-bg-right bottom {
+  .md\:my-prefix-bg-right-bottom {
     background-position: right bottom;
   }
-  .md\:my-prefix-bg-right top {
+  .md\:my-prefix-bg-right-top {
     background-position: right top;
   }
   .md\:my-prefix-bg-top {
@@ -704,6 +907,93 @@
   }
   .md\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
+  }
+  .md\:my-prefix-border-solid {
+    border-style: solid;
+  }
+  .md\:my-prefix-border-dashed {
+    border-style: dashed;
+  }
+  .md\:my-prefix-border-dotted {
+    border-style: dotted;
+  }
+  .md\:my-prefix-border-double {
+    border-style: double;
+  }
+  .md\:my-prefix-border-none {
+    border-style: none;
+  }
+  .md\:my-prefix-border-bs-none {
+    border-block-start: none;
+  }
+  .md\:my-prefix-border-be-none {
+    border-block-end: none;
+  }
+  .md\:my-prefix-border-is-none {
+    border-inline-start: none;
+  }
+  .md\:my-prefix-border-ie-none {
+    border-inline-end: none;
+  }
+  .md\:my-prefix-border-0 {
+    border-width: 0px;
+  }
+  .md\:my-prefix-border-1 {
+    border-width: 1px;
+  }
+  .md\:my-prefix-border-2 {
+    border-width: 2px;
+  }
+  .md\:my-prefix-border-3 {
+    border-width: 4px;
+  }
+  .md\:my-prefix-border-bs0 {
+    border-block-start-width: 0px;
+  }
+  .md\:my-prefix-border-bs1 {
+    border-block-start-width: 1px;
+  }
+  .md\:my-prefix-border-bs2 {
+    border-block-start-width: 2px;
+  }
+  .md\:my-prefix-border-bs3 {
+    border-block-start-width: 4px;
+  }
+  .md\:my-prefix-border-be0 {
+    border-block-end-width: 0px;
+  }
+  .md\:my-prefix-border-be1 {
+    border-block-end-width: 1px;
+  }
+  .md\:my-prefix-border-be2 {
+    border-block-end-width: 2px;
+  }
+  .md\:my-prefix-border-be3 {
+    border-block-end-width: 4px;
+  }
+  .md\:my-prefix-border-is0 {
+    border-inline-start-width: 0px;
+  }
+  .md\:my-prefix-border-is1 {
+    border-inline-start-width: 1px;
+  }
+  .md\:my-prefix-border-is2 {
+    border-inline-start-width: 2px;
+  }
+  .md\:my-prefix-border-is3 {
+    border-inline-start-width: 4px;
+  }
+  .md\:my-prefix-border-ie0 {
+    border-inline-end-width: 0px;
+  }
+  .md\:my-prefix-border-ie1 {
+    border-inline-end-width: 1px;
+  }
+  .md\:my-prefix-border-ie2 {
+    border-inline-end-width: 2px;
+  }
+  .md\:my-prefix-border-ie3 {
+    border-inline-end-width: 4px;
   }
   .md\:my-prefix-box-block {
     display: block;
@@ -767,19 +1057,19 @@
   .lg\:my-prefix-bg-left {
     background-position: left;
   }
-  .lg\:my-prefix-bg-left bottom {
+  .lg\:my-prefix-bg-left-bottom {
     background-position: left bottom;
   }
-  .lg\:my-prefix-bg-left top {
+  .lg\:my-prefix-bg-left-top {
     background-position: left top;
   }
   .lg\:my-prefix-bg-right {
     background-position: right;
   }
-  .lg\:my-prefix-bg-right bottom {
+  .lg\:my-prefix-bg-right-bottom {
     background-position: right bottom;
   }
-  .lg\:my-prefix-bg-right top {
+  .lg\:my-prefix-bg-right-top {
     background-position: right top;
   }
   .lg\:my-prefix-bg-top {
@@ -823,6 +1113,93 @@
   }
   .lg\:my-prefix-bg-clip-padding {
     background-clip: padding-box;
+  }
+  .lg\:my-prefix-border-solid {
+    border-style: solid;
+  }
+  .lg\:my-prefix-border-dashed {
+    border-style: dashed;
+  }
+  .lg\:my-prefix-border-dotted {
+    border-style: dotted;
+  }
+  .lg\:my-prefix-border-double {
+    border-style: double;
+  }
+  .lg\:my-prefix-border-none {
+    border-style: none;
+  }
+  .lg\:my-prefix-border-bs-none {
+    border-block-start: none;
+  }
+  .lg\:my-prefix-border-be-none {
+    border-block-end: none;
+  }
+  .lg\:my-prefix-border-is-none {
+    border-inline-start: none;
+  }
+  .lg\:my-prefix-border-ie-none {
+    border-inline-end: none;
+  }
+  .lg\:my-prefix-border-0 {
+    border-width: 0px;
+  }
+  .lg\:my-prefix-border-1 {
+    border-width: 1px;
+  }
+  .lg\:my-prefix-border-2 {
+    border-width: 2px;
+  }
+  .lg\:my-prefix-border-3 {
+    border-width: 4px;
+  }
+  .lg\:my-prefix-border-bs0 {
+    border-block-start-width: 0px;
+  }
+  .lg\:my-prefix-border-bs1 {
+    border-block-start-width: 1px;
+  }
+  .lg\:my-prefix-border-bs2 {
+    border-block-start-width: 2px;
+  }
+  .lg\:my-prefix-border-bs3 {
+    border-block-start-width: 4px;
+  }
+  .lg\:my-prefix-border-be0 {
+    border-block-end-width: 0px;
+  }
+  .lg\:my-prefix-border-be1 {
+    border-block-end-width: 1px;
+  }
+  .lg\:my-prefix-border-be2 {
+    border-block-end-width: 2px;
+  }
+  .lg\:my-prefix-border-be3 {
+    border-block-end-width: 4px;
+  }
+  .lg\:my-prefix-border-is0 {
+    border-inline-start-width: 0px;
+  }
+  .lg\:my-prefix-border-is1 {
+    border-inline-start-width: 1px;
+  }
+  .lg\:my-prefix-border-is2 {
+    border-inline-start-width: 2px;
+  }
+  .lg\:my-prefix-border-is3 {
+    border-inline-start-width: 4px;
+  }
+  .lg\:my-prefix-border-ie0 {
+    border-inline-end-width: 0px;
+  }
+  .lg\:my-prefix-border-ie1 {
+    border-inline-end-width: 1px;
+  }
+  .lg\:my-prefix-border-ie2 {
+    border-inline-end-width: 2px;
+  }
+  .lg\:my-prefix-border-ie3 {
+    border-inline-end-width: 4px;
   }
   .lg\:my-prefix-box-block {
     display: block;
