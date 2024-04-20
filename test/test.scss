@@ -12,22 +12,22 @@
 
 /// Use to override the default config
 @use 'override-config';
-@use '../gorko';
+@use '../gorko' as _g;
 
 /// A TESTING GROUND FOR FEATURES. MAKE SURE IT'S CLEAR AFTER HERE BEFORE PUSHING
 
 body {
-  font-size: gorko.get-utility-value('text', '500');
-  background: gorko.get-color('blush');
+  font-size: _g.get-utility-value('text', '500');
+  background: _g.get-color('blush');
   h1 {
-    font-size: gorko.get-size('900');
+    font-size: _g.get-size('900');
   }
-  @include gorko.apply-utility('color', 'blush');
+  @include _g.apply-utility('color', 'blush');
   .test-element {
-    @include gorko.media-query('md') {
+    @include _g.media-query('lg') {
       background: blue;
     }
   }
 }
 
-@include generate-utility-classes();
+@include _g.generate-utility-classes();
