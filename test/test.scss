@@ -1,7 +1,7 @@
 /// Override the default variables
 @use '../src/variables' with (
   $generate-css-vars: true,
-  $generate-utility-classes: true,
+  $generate-utility-classes: false,
   $gorko-base-size: 1rem,
   $gorko-colors: (
     'dark': #1a1a1a,
@@ -29,3 +29,5 @@ body {
     }
   }
 }
+
+@include generate-utility-classes();
