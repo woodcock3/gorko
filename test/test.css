@@ -37,6 +37,20 @@
   --color-bg: #1a1a1a;
 }
 
+body {
+  font-size: 1.25rem;
+  background: pink;
+  color: var(--color-blush);
+}
+body h1 {
+  font-size: 3rem;
+}
+@media only screen and (min-width: 48em) {
+  body .test-element {
+    background: blue;
+  }
+}
+
 /* GORKO: auto-generated utility classes start */
 .color-dark {
   color: var(--color-dark);
@@ -833,13 +847,5 @@
   }
 }
 /* GORKO: auto-generated utility classes end */
-body {
-  font-size: 1.25rem;
-  background: pink;
-  color: var(--color-blush);
-}
-body h1 {
-  font-size: 3rem;
-}
 
 /*# sourceMappingURL=test.css.map */
